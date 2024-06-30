@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3dd40a86209998b6db5b2d376551f6fd",
+    "revision": "cbc97289768abc3d9b4126b4ad38cd26",
     "url": "/absev-enordfor-ai/index.html"
   },
   {
-    "revision": "1bac2f78117c08ff47fc",
+    "revision": "9f3217ea1d2909dad570",
     "url": "/absev-enordfor-ai/static/css/main.9a926e8d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/absev-enordfor-ai/static/js/3.940f5f6f.chunk.js"
   },
   {
-    "revision": "1bac2f78117c08ff47fc",
-    "url": "/absev-enordfor-ai/static/js/main.7f076496.chunk.js"
+    "revision": "9f3217ea1d2909dad570",
+    "url": "/absev-enordfor-ai/static/js/main.82135fcf.chunk.js"
   },
   {
     "revision": "add44d460f38e83f5ce3",
