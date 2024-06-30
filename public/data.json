@@ -1,0 +1,65 @@
+{
+    "Name": "Mei Lin",
+    "Class": "Monk",
+    "Level": 3,
+    "Alignment": "Lawful Neutral",
+    "Race": "Human",
+    "Abilities": {
+        "Strength": 14,
+        "Dexterity": 18,
+        "Constitution": 14,
+        "Intelligence": 10,
+        "Wisdom": 16,
+        "Charisma": 12
+    },
+    "HP": 21,
+    "AC": 20,
+    "Initiative": "+4",
+    "Speed": "30 ft",
+    "Attacks": {
+        "Unarmed Strike": {
+            "Attack Bonus": "+7",
+            "Damage": "1d6+2",
+            "Special": "Flurry of Blows, Stunning Fist"
+        },
+        "Nunchaku": {
+            "Attack Bonus": "+7",
+            "Damage": "1d6+2",
+            "Special": "Flurry of Blows, Stunning Fist"
+        }
+    },
+    "Special Abilities": {
+        "Flurry of Blows": {
+            "Attack Bonus": "+5/+5",
+            "Damage": "1d6+2"
+        },
+        "Stunning Fist": {
+            "Uses per Day": 3,
+            "DC": 14
+        },
+        "Evasion": "No damage on successful Reflex save",
+        "Fast Movement": "+10 ft speed"
+    },
+    "Skills": {
+        "Acrobatics": "+12",
+        "Climb": "+6",
+        "Perception": "+8",
+        "Sense Motive": "+8",
+        "Stealth": "+12"
+    },
+    "Feats": [
+        "Improved Unarmed Strike",
+        "Stunning Fist",
+        "Combat Reflexes",
+        "Deflect Arrows"
+    ],
+    "Equipment": {
+        "Monk's Robe": "AC +1",
+        "Amulet of Natural Armor +1": "AC +1",
+        "Cloak of Resistance +1": "+1 to all saves",
+        "Nunchaku": "1d6+2",
+        "Potion of Cure Serious Wounds": "Heals 3d8+5",
+        "Shuriken": "1d2"
+    },
+    "Languages": ["Common"]
+}
