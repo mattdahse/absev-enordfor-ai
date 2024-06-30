@@ -125,187 +125,192 @@ const CharacterSheet = ({ character, imagePath }) => {
     link.click();
   };
 
+  const publicUrl = process.env.PUBLIC_URL || '';
+  const imageUrl = `${publicUrl}/images/${data.Name.toLowerCase().replace(/\s+/g, '-')}.webp`;
+
   return (
-    <div className="container">
-      <div className="header">
-        <div className="header-info">
-          <h1>{data.Name}</h1>
-          <h2>{data.Race} {data.Class} - Level {data.Level}</h2>
-          <h3>Alignment: {data.Alignment}</h3>
-        </div>
-        <img src={imagePath} alt="Character in action" className="character-image" />
-      </div>
-
-      <button onClick={resetData}>Reset Data</button>
-      <button onClick={exportToFile}>Export to File</button>
-
-      <div className="columns">
-        <div className="column">
-          <div className="hit-points section">
-            <h3>Hit Points</h3>
-            <p>{data.HP}</p>
-            <h3>Current HP <img src="/pencil.png" alt="Edit" onClick={() => openModal('currentHP', '', currentHP)} className="edit-icon" /></h3>
-            <p>{currentHP}</p>
+    <div className="character-sheet">
+      <div className="container">
+        <div className="header">
+          <div className="header-info">
+            <h1>{data.Name}</h1>
+            <h2>{data.Race} {data.Class} - Level {data.Level}</h2>
+            <h3>Alignment: {data.Alignment}</h3>
           </div>
-          <h3>Attributes</h3>
-          <table>
-            <tbody>
-              {Object.entries(data.Abilities).map(([key, value]) => (
-                <tr key={key}><th>{key}</th><td>{value}</td></tr>
-              ))}
-            </tbody>
-          </table>
+          <img src={imageUrl} alt="Character in action" className="character-image" />
         </div>
 
-        <div className="column">
-          <h3>Combat Stats</h3>
+        <button onClick={resetData}>Reset Data</button>
+        <button onClick={exportToFile}>Export to File</button>
+
+        <div className="columns">
+          <div className="column">
+            <div className="hit-points section">
+              <h3>Hit Points</h3>
+              <p>{data.HP}</p>
+              <h3>Current HP <img src="/pencil.png" alt="Edit" onClick={() => openModal('currentHP', '', currentHP)} className="edit-icon" /></h3>
+              <p>{currentHP}</p>
+            </div>
+            <h3>Attributes</h3>
+            <table>
+              <tbody>
+                {Object.entries(data.Abilities).map(([key, value]) => (
+                  <tr key={key}><th>{key}</th><td>{value}</td></tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="column">
+            <h3>Combat Stats</h3>
+            <table>
+              <tbody>
+                <tr><th>AC</th><td colSpan="3">{data.AC}</td></tr>
+                <tr><th>Initiative</th><td colSpan="3">{data.Initiative}</td></tr>
+                <tr><th>Speed</th><td colSpan="3">{data.Speed}</td></tr>
+                {Object.entries(data.Attacks).map(([key, value]) => (
+                  <tr key={key}>
+                    <th>{key}</th>
+                    <td>{value["Attack Bonus"]}</td>
+                    <td>{value.Damage}</td>
+                    <td>{value.Special}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="column">
+            <h3>Skills</h3>
+            <table>
+              <tbody>
+                {Object.entries(data.Skills).map(([key, value]) => (
+                  <tr key={key}><th>{key}</th><td>{value}</td></tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div className="equipment section">
+          <h3>Equipment</h3>
           <table>
             <tbody>
-              <tr><th>AC</th><td colSpan="3">{data.AC}</td></tr>
-              <tr><th>Initiative</th><td colSpan="3">{data.Initiative}</td></tr>
-              <tr><th>Speed</th><td colSpan="3">{data.Speed}</td></tr>
-              {Object.entries(data.Attacks).map(([key, value]) => (
+              {Object.entries(data.Equipment).map(([key, value]) => (
                 <tr key={key}>
                   <th>{key}</th>
-                  <td>{value["Attack Bonus"]}</td>
-                  <td>{value.Damage}</td>
-                  <td>{value.Special}</td>
+                  <td>{value}</td>
+                  <td><img src="/pencil.png" alt="Edit" onClick={() => openModal('Equipment', key, value)} className="edit-icon" /></td>
                 </tr>
               ))}
             </tbody>
           </table>
+          <button onClick={addEquipment}>Add New Equipment</button>
         </div>
 
-        <div className="column">
-          <h3>Skills</h3>
-          <table>
-            <tbody>
-              {Object.entries(data.Skills).map(([key, value]) => (
-                <tr key={key}><th>{key}</th><td>{value}</td></tr>
-              ))}
-            </tbody>
-          </table>
+        <div className="money section">
+          <h3>Money <img src="/pencil.png" alt="Edit" onClick={() => openModal('Money', '', data.Money)} className="edit-icon" /></h3>
+          <p>{money.gold} gp, {money.silver} sp, {money.copper} cp</p>
         </div>
-      </div>
 
-      <div className="equipment section">
-        <h3>Equipment</h3>
-        <table>
-          <tbody>
-            {Object.entries(data.Equipment).map(([key, value]) => (
-              <tr key={key}>
-                <th>{key}</th>
-                <td>{value}</td>
-                <td><img src="/pencil.png" alt="Edit" onClick={() => openModal('Equipment', key, value)} className="edit-icon" /></td>
-              </tr>
+        <div className="special-abilities section">
+          <h3>Special Abilities</h3>
+          <ul>
+            {Object.entries(data['Special Abilities']).map(([key, value]) => (
+              <li key={key}>
+                <strong>{key}:</strong> 
+                {typeof value === 'object' ? (
+                  <ul>
+                    {Object.entries(value).map(([subKey, subValue]) => (
+                      <li key={subKey}>{subKey}: {subValue}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  value
+                )}
+              </li>
             ))}
-          </tbody>
-        </table>
-        <button onClick={addEquipment}>Add New Equipment</button>
-      </div>
+          </ul>
+        </div>
 
-      <div className="money section">
-        <h3>Money <img src="/pencil.png" alt="Edit" onClick={() => openModal('Money', '', data.Money)} className="edit-icon" /></h3>
-        <p>{money.gold} gp, {money.silver} sp, {money.copper} cp</p>
-      </div>
+        <div className="feats section">
+          <h3>Feats</h3>
+          <ul>
+            {data.Feats.map((feat, index) => (
+              <li key={index}>{feat}</li>
+            ))}
+          </ul>
+        </div>
 
-      <div className="special-abilities section">
-        <h3>Special Abilities</h3>
-        <ul>
-          {Object.entries(data['Special Abilities']).map(([key, value]) => (
-            <li key={key}>
-              <strong>{key}:</strong> 
-              {typeof value === 'object' ? (
+        <div className="languages section">
+          <h3>Languages</h3>
+          <ul>
+            {data.Languages.map((language, index) => (
+              <li key={index}>{language}</li>
+            ))}
+          </ul>
+        </div>
+
+        {data.Spellbook && (
+          <div className="spellbook section">
+            <h3>Spellbook</h3>
+            {Object.entries(data.Spellbook).map(([level, spells]) => (
+              <div key={level}>
+                <h4>{level}</h4>
                 <ul>
-                  {Object.entries(value).map(([subKey, subValue]) => (
-                    <li key={subKey}>{subKey}: {subValue}</li>
+                  {spells.map((spell, index) => (
+                    <li key={`${spell.name}-${index}`}>
+                      <a href={spell.url} target="_blank" rel="noopener noreferrer">{spell.name}</a>
+                    </li>
                   ))}
                 </ul>
-              ) : (
-                value
-              )}
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      <div className="feats section">
-        <h3>Feats</h3>
-        <ul>
-          {data.Feats.map((feat, index) => (
-            <li key={index}>{feat}</li>
-          ))}
-        </ul>
-      </div>
-
-      <div className="languages section">
-        <h3>Languages</h3>
-        <ul>
-          {data.Languages.map((language, index) => (
-            <li key={index}>{language}</li>
-          ))}
-        </ul>
-      </div>
-
-      {data.Spellbook && (
-        <div className="spellbook section">
-          <h3>Spellbook</h3>
-          {Object.entries(data.Spellbook).map(([level, spells]) => (
-            <div key={level}>
-              <h4>{level}</h4>
-              <ul>
-                {spells.map((spell, index) => (
-                  <li key={`${spell.name}-${index}`}>
-                    <a href={spell.url} target="_blank" rel="noopener noreferrer">{spell.name}</a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      )}
-
-      {data.Memorized && (
-        <div className="memorized section">
-          <h3>Memorized Spells</h3>
-          {Object.entries(data.Memorized).map(([level, memorized]) => (
-            <div key={level}>
-              <h4>{level}</h4>
-              <ul>
-                {memorized.spells.map((spell, index) => (
-                  <li key={`${spell}-${index}`}>
-                    {spell}
-                    <img src="/pencil.png" alt="Edit" onClick={() => openModal('Memorized', `${level}-${index}`, spell)} className="edit-icon" />
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      )}
-
-      <Modal 
-        isOpen={isModalOpen} 
-        onClose={closeModal} 
-        onSave={saveChanges} 
-        onDelete={editableField === 'Equipment' || editableField === 'Memorized' ? deleteProperty : null}
-        title={`Edit ${editableField} ${editableKey}`}
-      >
-        {editableField === 'Memorized' ? (
-          <select value={modalContent} onChange={(e) => setModalContent(e.target.value)}>
-            {data.Spellbook[editableKey.split('-')[0]].map((spell, index) => (
-              <option key={`${spell.name}-${index}`} value={spell.name}>{spell.name}</option>
+              </div>
             ))}
-          </select>
-        ) : (
-          <textarea 
-            value={modalContent}
-            onChange={(e) => setModalContent(e.target.value)}
-            rows="10" 
-            cols="30"
-          />
+          </div>
         )}
-      </Modal>
+
+        {data.Memorized && (
+          <div className="memorized section">
+            <h3>Memorized Spells</h3>
+            {Object.entries(data.Memorized).map(([level, memorized]) => (
+              <div key={level}>
+                <h4>{level}</h4>
+                <ul>
+                  {memorized.spells.map((spell, index) => (
+                    <li key={`${spell}-${index}`}>
+                      {spell}
+                      <img src="/pencil.png" alt="Edit" onClick={() => openModal('Memorized', `${level}-${index}`, spell)} className="edit-icon" />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        )}
+
+        <Modal 
+          isOpen={isModalOpen} 
+          onClose={closeModal} 
+          onSave={saveChanges} 
+          onDelete={editableField === 'Equipment' || editableField === 'Memorized' ? deleteProperty : null}
+          title={`Edit ${editableField} ${editableKey}`}
+        >
+          {editableField === 'Memorized' ? (
+            <select value={modalContent} onChange={(e) => setModalContent(e.target.value)}>
+              {data.Spellbook[editableKey.split('-')[0]].map((spell, index) => (
+                <option key={`${spell.name}-${index}`} value={spell.name}>{spell.name}</option>
+              ))}
+            </select>
+          ) : (
+            <textarea 
+              value={modalContent}
+              onChange={(e) => setModalContent(e.target.value)}
+              rows="10" 
+              cols="30"
+            />
+          )}
+        </Modal>
+      </div>
     </div>
   );
 };

@@ -1,18 +1,18 @@
 [
     {
       "name": "Mei Lin",
-      "file": "mei-lin.json",
-      "image": "mei-lin.webp"
+      "file": "./mei-lin.json",
+      "image": "./mei-lin.webp"
     },
     {
       "name": "Elara Moonshadow",
-      "file": "elara-moonshadow.json",
-      "image": "elara-moonshadow.webp"
+      "file": "./elara-moonshadow.json",
+      "image": "./elara-moonshadow.webp"
     },
     {
         "name": "Lira Swiftblade",
-        "file": "lira-swiftblade.json",
-        "image": "lira-swiftblade.webp"
+        "file": "./lira-swiftblade.json",
+        "image": "./lira-swiftblade.webp"
     }
   ]
   
