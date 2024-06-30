@@ -14,6 +14,7 @@
     },
     "HP": 15,
     "AC": 14,
+    "Money": 145.28,
     "Initiative": "+2",
     "Speed": "30 ft",
     "Attacks": {
@@ -79,27 +80,27 @@
         "Cantrips": {
             "number_of_spells": 4,
             "spells": [
-                {"name": "Detect Magic", "url": "https://legacy.aonprd.com/coreRulebook/spells/detectMagic.html#detect-magic"},
-                {"name": "Read Magic", "url": "https://legacy.aonprd.com/coreRulebook/spells/readMagic.html#read-magic"},
-                {"name": "Light", "url": "https://legacy.aonprd.com/coreRulebook/spells/light.html#light"},
-                {"name": "Mage Hand", "url": "https://legacy.aonprd.com/coreRulebook/spells/mageHand.html#mage-hand"}
+                "Detect Magic",
+                "Read Magic",
+                "Light", 
+                "Mage Hand"
             ]
         },
         "1st Level": {
             "number_of_spells": 4,
             "spells": [
-                {"name": "Magic Missile", "url": "https://legacy.aonprd.com/coreRulebook/spells/magicMissile.html#magic-missile"},
-                {"name": "Mage Armor", "url": "https://legacy.aonprd.com/coreRulebook/spells/mageArmor.html#mage-armor"},
-                {"name": "Shield", "url": "https://legacy.aonprd.com/coreRulebook/spells/shield.html#shield"},
-                {"name": "Identify", "url": "https://legacy.aonprd.com/coreRulebook/spells/identify.html#identify"}
+                "Magic Missile", 
+                "Mage Armor",
+                "Shield", 
+                "Identify"
             ]
         },
         "2nd Level": {
             "number_of_spells": 3,
             "spells": [
-                {"name": "Scorching Ray", "url": "https://legacy.aonprd.com/coreRulebook/spells/scorchingRay.html#scorching-ray"},
-                {"name": "Scorching Ray", "url": "https://legacy.aonprd.com/coreRulebook/spells/scorchingRay.html#scorching-ray"},
-                {"name": "Invisibility", "url": "https://legacy.aonprd.com/coreRulebook/spells/invisibility.html#invisibility"}
+                "Scorching Ray", 
+                "Scorching Ray", 
+                "Invisibility"
             ]
         }
     }
