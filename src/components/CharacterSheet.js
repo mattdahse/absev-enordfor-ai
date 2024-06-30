@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CharacterSheet = ({ character }) => {
+const CharacterSheet = ({ character, imagePath }) => {
   if (!character) {
     return <p>Loading...</p>;
   }
@@ -13,7 +13,7 @@ const CharacterSheet = ({ character }) => {
           <h2>{character.Race} {character.Class} - Level {character.Level}</h2>
           <h3>Alignment: {character.Alignment}</h3>
         </div>
-        <img src="elara-moonshadow.webp" alt="Character in action" className="character-image" />
+        <img src={imagePath} alt="Character in action" className="character-image" />
       </div>
 
       <div className="columns">

@@ -12,14 +12,15 @@ const CharacterSelector = ({ onSelectCharacter }) => {
   }, []);
 
   const handleChange = (event) => {
-    setSelectedCharacter(event.target.value);
-    onSelectCharacter(event.target.value);
+    const selected = characters.find(character => character.file === event.target.value);
+    setSelectedCharacter(selected);
+    onSelectCharacter(selected);
   };
 
   return (
     <div>
       <h2>Select a Character</h2>
-      <select value={selectedCharacter} onChange={handleChange}>
+      <select value={selectedCharacter?.file || ''} onChange={handleChange}>
         <option value="">--Select a character--</option>
         {characters.map(character => (
           <option key={character.file} value={character.file}>

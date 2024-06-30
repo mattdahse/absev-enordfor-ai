@@ -4,17 +4,22 @@ import CharacterSelector from './components/CharacterSelector';
 import './App.css';
 
 function App() {
-  const [selectedCharacterFile, setSelectedCharacterFile] = useState('');
+  const [selectedCharacter, setSelectedCharacter] = useState(null);
 
-  const handleSelectCharacter = (characterFile) => {
-    setSelectedCharacterFile(characterFile);
+  const handleSelectCharacter = (character) => {
+    setSelectedCharacter(character);
   };
 
   return (
     <div className="App">
       <header className="App-header">
         <CharacterSelector onSelectCharacter={handleSelectCharacter} />
-        {selectedCharacterFile && <JsonViewer jsonFile={`/${selectedCharacterFile}`} />}
+        {selectedCharacter && (
+          <JsonViewer 
+            jsonFile={`/${selectedCharacter.file}`}
+            imagePath={`${process.env.PUBLIC_URL}/${selectedCharacter.image}`}
+          />
+        )}
       </header>
     </div>
   );

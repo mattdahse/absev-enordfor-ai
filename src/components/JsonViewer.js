@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import CharacterSheet from './CharacterSheet';
 
-const JsonViewer = ({ jsonFile }) => {
+const JsonViewer = ({ jsonFile, imagePath }) => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}${jsonFile}`)
+    fetch(jsonFile)
       .then(response => response.json())
       .then(data => setData(data))
       .catch(error => console.error('Error fetching JSON:', error));
@@ -13,7 +13,7 @@ const JsonViewer = ({ jsonFile }) => {
 
   return (
     <div>
-      <CharacterSheet character={data} />
+      <CharacterSheet character={data} imagePath={imagePath} />
       <a href={jsonFile} download="data.json">Download JSON</a>
     </div>
   );
