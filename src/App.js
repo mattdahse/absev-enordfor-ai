@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import JsonViewer from './components/JsonViewer';
+import CharacterSelector from './components/CharacterSelector';
 import './App.css';
 
 function App() {
-  const jsonFile = 'https://mattdahse.github.io/absev-enordfor-ai/data.json';
+  const [selectedCharacterFile, setSelectedCharacterFile] = useState('');
+
+  const handleSelectCharacter = (characterFile) => {
+    setSelectedCharacterFile(characterFile);
+  };
 
   return (
     <div className="App">
       <header className="App-header">
-        <JsonViewer jsonFile={jsonFile} />
+        <CharacterSelector onSelectCharacter={handleSelectCharacter} />
+        {selectedCharacterFile && <JsonViewer jsonFile={`/${selectedCharacterFile}`} />}
       </header>
     </div>
   );

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import CharacterSheet from './CharacterSheet';
 
 const JsonViewer = ({ jsonFile }) => {
   const [data, setData] = useState(null);
@@ -12,16 +13,10 @@ const JsonViewer = ({ jsonFile }) => {
 
   return (
     <div>
-      <h1>JSON Data</h1>
-      {data ? (
-        <pre>{JSON.stringify(data, null, 2)}</pre>
-      ) : (
-        <p>Loading...</p>
-      )}
+      <CharacterSheet character={data} />
       <a href={jsonFile} download="data.json">Download JSON</a>
     </div>
   );
 };
 
 export default JsonViewer;
-

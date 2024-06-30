@@ -1,0 +1,53 @@
+{
+    "Name": "Elara Moonshadow",
+    "Class": "Wizard",
+    "Level": 3,
+    "Alignment": "Lawful Neutral",
+    "Race": "Elf",
+    "Abilities": {
+        "Strength": 10,
+        "Dexterity": 14,
+        "Constitution": 12,
+        "Intelligence": 18,
+        "Wisdom": 12,
+        "Charisma": 8
+    },
+    "HP": 15,
+    "AC": 14,
+    "Initiative": "+2",
+    "Speed": "30 ft",
+    "Attacks": {
+        "Quarterstaff": {
+            "Attack Bonus": "+1",
+            "Damage": "1d6",
+            "Special": ""
+        },
+        "Dagger": {
+            "Attack Bonus": "+1",
+            "Damage": "1d4",
+            "Special": ""
+        }
+    },
+    "Special Abilities": {
+        "Evocation School": "Intense Spells +1 damage"
+    },
+    "Skills": {
+        "Spellcraft": "+10",
+        "Knowledge (Arcana)": "+10",
+        "Knowledge (History)": "+9",
+        "Knowledge (Planes)": "+9",
+        "Perception": "+4"
+    },
+    "Feats": [
+        "Scribe Scroll",
+        "Dodge",
+        "Toughness"
+    ],
+    "Equipment": {
+        "Spellbook": "Contains various spells",
+        "Backpack": "Contains adventuring gear",
+        "Belt Pouches": "Contain small items",
+        "Silk Rope": "50 ft"
+    },
+    "Languages": ["Common", "Elven", "Draconic", "Sylvan"]
+}
