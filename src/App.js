@@ -3,7 +3,7 @@ import JsonViewer from './components/JsonViewer';
 import './App.css';
 
 function App() {
-  const jsonFile = 'https://path-to-your-json-file/file.json';
+  const jsonFile = 'https://mattdahse.github.io/absev-enordfor-ai/data.json';
 
   return (
     <div className="App">
