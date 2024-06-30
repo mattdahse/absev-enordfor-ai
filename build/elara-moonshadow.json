@@ -1,0 +1,107 @@
+{
+    "Name": "Elara Moonshadow",
+    "Class": "Wizard",
+    "Level": 3,
+    "Alignment": "Lawful Neutral",
+    "Race": "Elf",
+    "Abilities": {
+        "Strength": 10,
+        "Dexterity": 14,
+        "Constitution": 12,
+        "Intelligence": 18,
+        "Wisdom": 12,
+        "Charisma": 8
+    },
+    "HP": 15,
+    "AC": 14,
+    "Money": 145.28,
+    "Initiative": "+2",
+    "Speed": "30 ft",
+    "Attacks": {
+        "Quarterstaff": {
+            "Attack Bonus": "+1",
+            "Damage": "1d6",
+            "Special": ""
+        },
+        "Dagger": {
+            "Attack Bonus": "+1",
+            "Damage": "1d4",
+            "Special": ""
+        }
+    },
+    "Special Abilities": {
+        "Evocation School": "Intense Spells +1 damage"
+    },
+    "Skills": {
+        "Spellcraft": "+10",
+        "Knowledge (Arcana)": "+10",
+        "Knowledge (History)": "+9",
+        "Knowledge (Planes)": "+9",
+        "Perception": "+4"
+    },
+    "Feats": [
+        "Scribe Scroll",
+        "Dodge",
+        "Toughness"
+    ],
+    "Equipment": {
+        "Spellbook": "Contains various spells",
+        "Backpack": "Contains adventuring gear",
+        "Belt Pouches": "Contain small items",
+        "Silk Rope": "50 ft"
+    },
+    "Languages": ["Common", "Elven", "Draconic", "Sylvan"],
+    "Spellbook": {
+        "Cantrips": [
+            {"name": "Detect Magic", "url": "https://legacy.aonprd.com/coreRulebook/spells/detectMagic.html#detect-magic"},
+            {"name": "Read Magic", "url": "https://legacy.aonprd.com/coreRulebook/spells/readMagic.html#read-magic"},
+            {"name": "Light", "url": "https://legacy.aonprd.com/coreRulebook/spells/light.html#light"},
+            {"name": "Mage Hand", "url": "https://legacy.aonprd.com/coreRulebook/spells/mageHand.html#mage-hand"}
+        ],
+        "1st Level": [
+            {"name": "Magic Missile", "url": "https://legacy.aonprd.com/coreRulebook/spells/magicMissile.html#magic-missile"},
+            {"name": "Mage Armor", "url": "https://legacy.aonprd.com/coreRulebook/spells/mageArmor.html#mage-armor"},
+            {"name": "Shield", "url": "https://legacy.aonprd.com/coreRulebook/spells/shield.html#shield"},
+            {"name": "Burning Hands", "url": "https://legacy.aonprd.com/coreRulebook/spells/burningHands.html#burning-hands"},
+            {"name": "Comprehend Languages", "url": "https://legacy.aonprd.com/coreRulebook/spells/comprehendLanguages.html#comprehend-languages"},
+            {"name": "Detect Secret Doors", "url": "https://legacy.aonprd.com/coreRulebook/spells/detectSecretDoors.html#detect-secret-doors"},
+            {"name": "Feather Fall", "url": "https://legacy.aonprd.com/coreRulebook/spells/featherFall.html#feather-fall"},
+            {"name": "Floating Disk", "url": "https://legacy.aonprd.com/coreRulebook/spells/floatingDisk.html#floating-disk"},
+            {"name": "Identify", "url": "https://legacy.aonprd.com/coreRulebook/spells/identify.html#identify"},
+            {"name": "Mount", "url": "https://legacy.aonprd.com/coreRulebook/spells/mount.html#mount"},
+            {"name": "Obscuring Mist", "url": "https://legacy.aonprd.com/coreRulebook/spells/obscuringMist.html#obscuring-mist"}
+        ],
+        "2nd Level": [
+            {"name": "Scorching Ray", "url": "https://legacy.aonprd.com/coreRulebook/spells/scorchingRay.html#scorching-ray"},
+            {"name": "Invisibility", "url": "https://legacy.aonprd.com/coreRulebook/spells/invisibility.html#invisibility"}
+        ]
+    },
+    "Memorized": {
+        "Cantrips": {
+            "number_of_spells": 4,
+            "spells": [
+                "Detect Magic",
+                "Read Magic",
+                "Light", 
+                "Mage Hand"
+            ]
+        },
+        "1st Level": {
+            "number_of_spells": 4,
+            "spells": [
+                "Magic Missile", 
+                "Mage Armor",
+                "Shield", 
+                "Identify"
+            ]
+        },
+        "2nd Level": {
+            "number_of_spells": 3,
+            "spells": [
+                "Scorching Ray", 
+                "Scorching Ray", 
+                "Invisibility"
+            ]
+        }
+    }
+}

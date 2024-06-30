@@ -1,0 +1,60 @@
+{
+    "Name": "Lira Swiftblade",
+    "Class": "Rogue",
+    "Level": 3,
+    "Alignment": "Chaotic Good",
+    "Race": "Human",
+    "Abilities": {
+        "Strength": 12,
+        "Dexterity": 18,
+        "Constitution": 14,
+        "Intelligence": 10,
+        "Wisdom": 12,
+        "Charisma": 14
+    },
+    "HP": 22,
+    "AC": 17,
+    "Money": 138.25,
+    "Initiative": "+4",
+    "Speed": "30 ft",
+    "Attacks": {
+        "Rapier +1": {
+            "Attack Bonus": "+8",
+            "Damage": "1d6+1",
+            "Special": "Finesse"
+        },
+        "Masterwork Dagger": {
+            "Attack Bonus": "+7",
+            "Damage": "1d4+1",
+            "Special": "Finesse"
+        }
+    },
+    "Special Abilities": {
+        "Sneak Attack": "+2d6 damage",
+        "Trapfinding": "+1 to find or disable traps",
+        "Evasion": "No damage on successful Reflex save"
+    },
+    "Skills": {
+        "Acrobatics": "+9",
+        "Bluff": "+8",
+        "Climb": "+7",
+        "Disable Device": "+11",
+        "Perception": "+9",
+        "Sleight of Hand": "+9",
+        "Stealth": "+9"
+    },
+    "Feats": [
+        "Weapon Finesse",
+        "Dodge",
+        "Mobility"
+    ],
+    "Equipment": {
+        "Leather Armor": "AC +2",
+        "Cloak of Resistance +1": "+1 to all saves",
+        "Rapier +1": "1d6+1",
+        "Masterwork Dagger": "1d4+1",
+        "Thieves' Tools": "For disabling traps and picking locks",
+        "Ring of Protection +1": "AC +1"
+    },
+    "Languages": ["Common"]
+}
