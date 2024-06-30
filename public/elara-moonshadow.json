@@ -49,5 +49,58 @@
         "Belt Pouches": "Contain small items",
         "Silk Rope": "50 ft"
     },
-    "Languages": ["Common", "Elven", "Draconic", "Sylvan"]
+    "Languages": ["Common", "Elven", "Draconic", "Sylvan"],
+    "Spellbook": {
+        "Cantrips": [
+            {"name": "Detect Magic", "url": "https://legacy.aonprd.com/coreRulebook/spells/detectMagic.html#detect-magic"},
+            {"name": "Read Magic", "url": "https://legacy.aonprd.com/coreRulebook/spells/readMagic.html#read-magic"},
+            {"name": "Light", "url": "https://legacy.aonprd.com/coreRulebook/spells/light.html#light"},
+            {"name": "Mage Hand", "url": "https://legacy.aonprd.com/coreRulebook/spells/mageHand.html#mage-hand"}
+        ],
+        "1st Level": [
+            {"name": "Magic Missile", "url": "https://legacy.aonprd.com/coreRulebook/spells/magicMissile.html#magic-missile"},
+            {"name": "Mage Armor", "url": "https://legacy.aonprd.com/coreRulebook/spells/mageArmor.html#mage-armor"},
+            {"name": "Shield", "url": "https://legacy.aonprd.com/coreRulebook/spells/shield.html#shield"},
+            {"name": "Burning Hands", "url": "https://legacy.aonprd.com/coreRulebook/spells/burningHands.html#burning-hands"},
+            {"name": "Comprehend Languages", "url": "https://legacy.aonprd.com/coreRulebook/spells/comprehendLanguages.html#comprehend-languages"},
+            {"name": "Detect Secret Doors", "url": "https://legacy.aonprd.com/coreRulebook/spells/detectSecretDoors.html#detect-secret-doors"},
+            {"name": "Feather Fall", "url": "https://legacy.aonprd.com/coreRulebook/spells/featherFall.html#feather-fall"},
+            {"name": "Floating Disk", "url": "https://legacy.aonprd.com/coreRulebook/spells/floatingDisk.html#floating-disk"},
+            {"name": "Identify", "url": "https://legacy.aonprd.com/coreRulebook/spells/identify.html#identify"},
+            {"name": "Mount", "url": "https://legacy.aonprd.com/coreRulebook/spells/mount.html#mount"},
+            {"name": "Obscuring Mist", "url": "https://legacy.aonprd.com/coreRulebook/spells/obscuringMist.html#obscuring-mist"}
+        ],
+        "2nd Level": [
+            {"name": "Scorching Ray", "url": "https://legacy.aonprd.com/coreRulebook/spells/scorchingRay.html#scorching-ray"},
+            {"name": "Invisibility", "url": "https://legacy.aonprd.com/coreRulebook/spells/invisibility.html#invisibility"}
+        ]
+    },
+    "Memorized": {
+        "Cantrips": {
+            "number_of_spells": 4,
+            "spells": [
+                {"name": "Detect Magic", "url": "https://legacy.aonprd.com/coreRulebook/spells/detectMagic.html#detect-magic"},
+                {"name": "Read Magic", "url": "https://legacy.aonprd.com/coreRulebook/spells/readMagic.html#read-magic"},
+                {"name": "Light", "url": "https://legacy.aonprd.com/coreRulebook/spells/light.html#light"},
+                {"name": "Mage Hand", "url": "https://legacy.aonprd.com/coreRulebook/spells/mageHand.html#mage-hand"}
+            ]
+        },
+        "1st Level": {
+            "number_of_spells": 4,
+            "spells": [
+                {"name": "Magic Missile", "url": "https://legacy.aonprd.com/coreRulebook/spells/magicMissile.html#magic-missile"},
+                {"name": "Mage Armor", "url": "https://legacy.aonprd.com/coreRulebook/spells/mageArmor.html#mage-armor"},
+                {"name": "Shield", "url": "https://legacy.aonprd.com/coreRulebook/spells/shield.html#shield"},
+                {"name": "Identify", "url": "https://legacy.aonprd.com/coreRulebook/spells/identify.html#identify"}
+            ]
+        },
+        "2nd Level": {
+            "number_of_spells": 3,
+            "spells": [
+                {"name": "Scorching Ray", "url": "https://legacy.aonprd.com/coreRulebook/spells/scorchingRay.html#scorching-ray"},
+                {"name": "Scorching Ray", "url": "https://legacy.aonprd.com/coreRulebook/spells/scorchingRay.html#scorching-ray"},
+                {"name": "Invisibility", "url": "https://legacy.aonprd.com/coreRulebook/spells/invisibility.html#invisibility"}
+            ]
+        }
+    }
 }

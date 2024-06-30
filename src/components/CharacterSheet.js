@@ -112,6 +112,42 @@ const CharacterSheet = ({ character, imagePath }) => {
           ))}
         </ul>
       </div>
+
+      {character.Spellbook && (
+        <div className="spellbook section">
+          <h3>Spellbook</h3>
+          {Object.entries(character.Spellbook).map(([level, spells]) => (
+            <div key={level}>
+              <h4>{level}</h4>
+              <ul>
+                {spells.map(spell => (
+                  <li key={spell.name}>
+                    <a href={spell.url} target="_blank" rel="noopener noreferrer">{spell.name}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {character.Memorized && (
+        <div className="memorized section">
+          <h3>Memorized Spells</h3>
+          {Object.entries(character.Memorized).map(([level, data]) => (
+            <div key={level}>
+              <h4>{level} (Spells per day: {data.number_of_spells})</h4>
+              <ul>
+                {data.spells.map(spell => (
+                  <li key={spell.name}>
+                    <a href={spell.url} target="_blank" rel="noopener noreferrer">{spell.name}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 };
