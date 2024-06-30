@@ -5,7 +5,7 @@ const JsonViewer = ({ jsonFile }) => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(jsonFile)
+    fetch(`${process.env.PUBLIC_URL}${jsonFile}`)
       .then(response => response.json())
       .then(data => setData(data))
       .catch(error => console.error('Error fetching JSON:', error));

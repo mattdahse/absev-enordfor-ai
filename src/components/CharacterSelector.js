@@ -5,7 +5,7 @@ const CharacterSelector = ({ onSelectCharacter }) => {
   const [selectedCharacter, setSelectedCharacter] = useState('');
 
   useEffect(() => {
-    fetch('/characters.json')
+    fetch(`${process.env.PUBLIC_URL}/characters.json`)
       .then(response => response.json())
       .then(data => setCharacters(data))
       .catch(error => console.error('Error fetching character list:', error));
