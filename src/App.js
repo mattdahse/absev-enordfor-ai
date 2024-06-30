@@ -16,7 +16,7 @@ function App() {
         <CharacterSelector onSelectCharacter={handleSelectCharacter} />
         {selectedCharacter && (
           <JsonViewer 
-            jsonFile={`/${selectedCharacter.file}`}
+            jsonFile={selectedCharacter.file}
             imagePath={`${process.env.PUBLIC_URL}/${selectedCharacter.image}`}
           />
         )}

@@ -14,6 +14,7 @@
     },
     "HP": 22,
     "AC": 17,
+    "Money": 138.25,
     "Initiative": "+4",
     "Speed": "30 ft",
     "Attacks": {
