@@ -13,6 +13,11 @@
         "name": "Lira Swiftblade",
         "file": "./lira-swiftblade.json",
         "image": "./lira-swiftblade.webp"
+    },
+    {
+        "name":"Liu Zhou",
+        "file": "./liu-zhou.json",
+        "image": "./liu-zhou.webp"
     }
   ]
   

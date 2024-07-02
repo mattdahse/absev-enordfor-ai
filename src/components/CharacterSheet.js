@@ -148,7 +148,7 @@ const CharacterSheet = ({ character, imagePath }) => {
             <div className="hit-points section">
               <h3>Hit Points</h3>
               <p>{data.HP}</p>
-              <h3>Current HP <img src="/pencil.png" alt="Edit" onClick={() => openModal('currentHP', '', currentHP)} className="edit-icon" /></h3>
+              <h3>Current HP <img src="pencil.png" alt="Edit" onClick={() => openModal('currentHP', '', currentHP)} className="edit-icon" /></h3>
               <p>{currentHP}</p>
             </div>
             <h3>Attributes</h3>
@@ -200,7 +200,7 @@ const CharacterSheet = ({ character, imagePath }) => {
                 <tr key={key}>
                   <th>{key}</th>
                   <td>{value}</td>
-                  <td><img src="/pencil.png" alt="Edit" onClick={() => openModal('Equipment', key, value)} className="edit-icon" /></td>
+                  <td><img src="pencil.png" alt="Edit" onClick={() => openModal('Equipment', key, value)} className="edit-icon" /></td>
                 </tr>
               ))}
             </tbody>
@@ -209,7 +209,7 @@ const CharacterSheet = ({ character, imagePath }) => {
         </div>
 
         <div className="money section">
-          <h3>Money <img src="/pencil.png" alt="Edit" onClick={() => openModal('Money', '', data.Money)} className="edit-icon" /></h3>
+          <h3>Money <img src="pencil.png" alt="Edit" onClick={() => openModal('Money', '', data.Money)} className="edit-icon" /></h3>
           <p>{money.gold} gp, {money.silver} sp, {money.copper} cp</p>
         </div>
 
@@ -279,7 +279,7 @@ const CharacterSheet = ({ character, imagePath }) => {
                   {memorized.spells.map((spell, index) => (
                     <li key={`${spell}-${index}`}>
                       {spell}
-                      <img src="/pencil.png" alt="Edit" onClick={() => openModal('Memorized', `${level}-${index}`, spell)} className="edit-icon" />
+                      <img src="pencil.png" alt="Edit" onClick={() => openModal('Memorized', `${level}-${index}`, spell)} className="edit-icon" />
                     </li>
                   ))}
                 </ul>
