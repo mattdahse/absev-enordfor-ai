@@ -1,170 +1,270 @@
 {
-    "Name": "Elara Moonshadow",
-    "Class": "Wizard",
-    "Level": 4,
-    "Alignment": "Lawful Neutral",
-    "Race": "Elf",
-    "Abilities": {
-        "Strength": 10,
-        "Dexterity": 17,
-        "Constitution": 12,
-        "Intelligence": 18,
-        "Wisdom": 14,
-        "Charisma": 12
-    },
-    "HP": 28,
-    "AC": 14,
-    "Saves": {
-        "Fortitude": 3,
-        "Reflex": 5,
-        "Willpower": 7
-    },
-    "Money": 145.28,
-    "Initiative": "+3",
-    "Speed": "30 ft",
-    "Attacks": {
-        "Longsword": {
-            "Attack Bonus": "+2",
-            "Damage": "1d8",
-            "Special": ""
-        },
-        "Longbow": {
-            "Attack Bonus": "+5",
-            "Damage": "1d8",
-            "Special": "Range 60"
-        },
-        "Quarterstaff": {
-            "Attack Bonus": "+2",
-            "Damage": "1d6",
-            "Special": ""
-        },
-        "Dagger-(Melee)": {
-            "Attack Bonus": "+2",
-            "Damage": "1d4",
-            "Special": ""
-        },
-        "Dagger-(Ranged)": {
-            "Attack Bonus": "+5",
-            "Damage": "1d4",
-            "Special": "Range 10"
-        },
-        "Force Missile": {
-            "Attack Bonus": "NA",
-            "Damage": "1d4+1",
-            "Special": "Magic, Force, 7x per day"
-        }
-    },
-    "Special Abilities": {
-        "Evocation School": "Intense Spells +1 damage"
-    },
-    "Skills": {
-        "Knowledge (Arcana)": "+10",
-        "Knowledge (History)": "+10",
-        "Knowledge (Planes)": "+9",
-        "Perception": "+7",
-        "Spellcraft": "+10",
-        "Spellcraft (to identify magic item properties)": "+12",
-        "Stealth": "+2",
-        "Survival": "+2"
-    },
-    "Feats": [
-        "Arcane Bond",
-        "Arcane School (Evoker - Counter School: Necromancy and Enchantment)",
-        "Cantrips",
-        "Scribe Scroll",
-        "Dodge (+1 AC based on Dexterity)",
-        "Toughness (+1 HP per Level)"
-    ],
-    "Equipment": {
-        "Spellbook": "Contains various spells",
-        "Backpack": "Contains adventuring gear",
-        "Spell Component Pouch": "Contains Spell Components",
-        "Belt Pouches": "Contain small items",
-        "Silk Rope": "50 ft",
-        "Ring": "Arcane Bond",
-        "Traveler's Outfit": "Traveling Clothes",
-        "Flint and Stell": "Starts Fires",
-        "Potion of Cure Light Wounds": "Heals 1D8+1 points of Damage x2",
-        "Scroll of Invisibility": "Casts Invisibility",
-        "Scroll of Fireball": "Casts Fireball x2",
-        "Arrow": "x25",
-        "Long Sword": "1D8 Damage",
-        "Long Bow": "1D8 Damage",
-        "Bedroll": "Sleeping on the Ground",
-        "Winter Blanket": "Keeps me Warm",
-        "Elven Trail Rations": "x5",
-        "Trail Rations": "x7",
-        "Map Case": "Stores Maps",
-        "Scroll Case": "Stores Scrolls",
-        "Small Tent": "Keeps you Dry",
-        "Water Skin": "Thirsty? x2",
-        "Cloak of Resistance +1": "+1 to all saves"
-    },
-    "Notes": {
-        "Immunities": "Sleep, +2 bonus to enchantment",
-        "Weapon Proficiencies": "Club, Heavy Crossbow, Light Crossbow, Dagger, Grapple, Longbow, Longsword, Quarterstaff, Rapier, Shortbow, Rays Spells, Touch Spells, Splash Weapons, Unarmed Strike"
-    },
-    "Experience Points": 7000,
-    "Languages": [
-        "Common",
-        "Draconic",
-        "Dwarven",
-        "Elven",
-        "Goblin",
-        "Orc",
-        "Sylvan"
-    ],
-    "Spellbook": {
-        "Cantrips": [
-            {"name": "Acid Splash", "url": "https://legacy.aonprd.com/coreRulebook/spells/acidSplash.html#acidsplash"},
-            {"name": "Arcane Mark", "url": "https://legacy.aonprd.com/coreRulebook/spells/arcaneMark.html#arcanemark"},
-            {"name": "Detect Magic", "url": "https://legacy.aonprd.com/coreRulebook/spells/detectMagic.html#detect-magic"},
-            {"name": "Dancing Lights", "url": "https://legacy.aonprd.com/coreRulebook/spells/dancingLights.html#dancinglights"},
-            {"name": "Detect Poison", "url": "https://legacy.aonprd.com/coreRulebook/spells/detectPoison.html#detect-poison"},
-            {"name": "Read Magic", "url": "https://legacy.aonprd.com/coreRulebook/spells/readMagic.html#read-magic"},
-            {"name": "Light", "url": "https://legacy.aonprd.com/coreRulebook/spells/light.html#light"},
-            {"name": "Mage Hand", "url": "https://legacy.aonprd.com/coreRulebook/spells/mageHand.html#mage-hand"},
-            {"name": "Flare", "url": "https://legacy.aonprd.com/coreRulebook/spells/flare.html#flare"},
-            {"name": "Ghost Sound", "url": "https://legacy.aonprd.com/coreRulebook/spells/ghostSound.html#ghostsound"},
-            {"name": "Prestidigitation", "url": "https://legacy.aonprd.com/coreRulebook/spells/prestidigitation.html#prestidigitation"},
-            {"name": "Mending", "url": "https://legacy.aonprd.com/coreRulebook/spells/mending.html#mending"},
-            {"name": "Message", "url": "https://legacy.aonprd.com/coreRulebook/spells/message.html#message"},
-            {"name": "Open/Close", "url": "https://legacy.aonprd.com/coreRulebook/spells/openClose.html#open/close"},
-            {"name": "Ray of Frost", "url": "https://legacy.aonprd.com/coreRulebook/spells/rayOfFrost.html#ray-of-frost"},
-            {"name": "Resistance", "url": "https://legacy.aonprd.com/coreRulebook/spells/resistance.html#resistance"},
-            {"name": "Spark", "url": "https://legacy.aonprd.com/advancedPlayersGuide/spells/spark.html#spark"}
-        ],
-        "1st Level": [
-            {"name": "Burning Hands", "url": "https://legacy.aonprd.com/coreRulebook/spells/burningHands.html#burning-hands"},
-            {"name": "Feather Fall", "url": "https://legacy.aonprd.com/coreRulebook/spells/featherFall.html#feather-fall"},
-            {"name": "Floating Disk", "url": "https://legacy.aonprd.com/coreRulebook/spells/floatingDisk.html#floating-disk"},
-            {"name": "Identify", "url": "https://legacy.aonprd.com/coreRulebook/spells/identify.html#identify"},
-            {"name": "Mage Armor", "url": "https://legacy.aonprd.com/coreRulebook/spells/mageArmor.html#mage-armor"},
-            {"name": "Magic Missile", "url": "https://legacy.aonprd.com/coreRulebook/spells/magicMissile.html#magic-missile"},
-            {"name": "Shield", "url": "https://legacy.aonprd.com/coreRulebook/spells/shield.html#shield"},
-            {"name": "Grease", "url": "https://legacy.aonprd.com/coreRulebook/spells/grease.html#grease"}
-        ],
-        "2nd Level": [
-            {"name": "Invisibility", "url": "https://legacy.aonprd.com/coreRulebook/spells/invisibility.html#invisibility"},
-            {"name": "Mirror Image", "url": "https://legacy.aonprd.com/coreRulebook/spells/scorchingRay.html#mirror-image"},
-            {"name": "Scorching Ray", "url": "https://legacy.aonprd.com/coreRulebook/spells/scorchingRay.html#scorching-ray"},
-            {"name": "Web", "url": "https://legacy.aonprd.com/coreRulebook/spells/scorchingRay.html#web"},
-            {"name": "Acid Arrow", "url": "https://legacy.aonprd.com/coreRulebook/spells/acidArrow.html#acid-arrow"}
-        ]
-    },
-    "Memorized": {
-        "Cantrips": {
-            "number_of_spells": 4,
-            "spells": ["Detect Magic", "Read Magic", "Light", "Mage Hand"]
-        },
-        "1st Level": {
-            "number_of_spells": 4,
-            "spells": ["Magic Missile", "Mage Armor", "Shield", "Identify"]
-        },
-        "2nd Level": {
-            "number_of_spells": 3,
-            "spells": ["Scorching Ray", "Web", "Invisibility"]
-        }
-    },
-    "currentHP": 28
+	"Name": "Elara Moonshadow",
+	"Class": "Wizard",
+	"Level": 4,
+	"Alignment": "Lawful Neutral",
+	"Race": "Elf",
+	"Abilities": {
+		"Strength": 10,
+		"Dexterity": 17,
+		"Constitution": 12,
+		"Intelligence": 18,
+		"Wisdom": 14,
+		"Charisma": 12
+	},
+	"HP": 28,
+	"AC": 14,
+	"Saves": {
+		"Fortitude": 3,
+		"Reflex": 5,
+		"Willpower": 7
+	},
+	"Money": 145.28,
+	"Initiative": "+3",
+	"Speed": "30 ft",
+	"Attacks": {
+		"Longsword": {
+			"Attack Bonus": "+2",
+			"Damage": "1d8",
+			"Special": ""
+		},
+		"Longbow": {
+			"Attack Bonus": "+5",
+			"Damage": "1d8",
+			"Special": "Range 60"
+		},
+		"Quarterstaff": {
+			"Attack Bonus": "+2",
+			"Damage": "1d6",
+			"Special": ""
+		},
+		"Dagger-(Melee)": {
+			"Attack Bonus": "+3",
+			"Damage": "1d4",
+			"Special": ""
+		},
+		"Dagger-(Ranged)": {
+			"Attack Bonus": "+6",
+			"Damage": "1d4",
+			"Special": "Range 10"
+		},
+		"Force Missile": {
+			"Attack Bonus": "NA",
+			"Damage": "1d4+1",
+			"Special": "Magic, Force, 7x per day"
+		}
+	},
+	"Special Abilities": {
+		"Evocation School": "Intense Spells +1 damage"
+	},
+	"Skills": {
+		"Knowledge (Arcana)": "+10",
+		"Knowledge (History)": "+10",
+		"Knowledge (Planes)": "+9",
+		"Linguistics": "+8"
+		"Perception": "+7",
+		"Spellcraft": "+10",
+		"Spellcraft (to identify magic item properties)": "+12",
+		"Stealth": "+2",
+		"Survival": "+2"
+	},
+	"Feats": [
+		"Arcane Bond",
+		"Arcane School (Evoker - Counter School: Necromancy and Enchantment)",
+		"Cantrips",
+		"Scribe Scroll",
+		"Dodge (+1 AC based on Dexterity)",
+		"Toughness (+1 HP per Level)"
+	],
+	"Equipment": {
+		"Spellbook": "Contains various spells",
+		"Backpack": "Bedroll, Winter Blanket, Elven Rations x5, Trail Rations x7, Silk Rope 50'",
+		"Spell Component Pouch": "Contains Spell Components",
+		"Ring": "Arcane Bond",
+		"Traveler's Outfit": "Traveling Clothes",
+		"Dagger": "Dagger",		
+		"Dagger+1": "Magic +1 Dagger to Hit/Damage",
+		"Arrow": "x25",
+		"Long Sword": "1D8 Damage",
+		"Long Bow": "1D8 Damage",
+		"Map Case": "Bandit Map of Hideout",
+		"Scroll Case": "Invisibility x1, Fireball x2",
+		"Small Tent": "Keeps you Dry - on Pack Mule",
+		"Water Skin": "Thirsty! x2",
+		"Cloak of Resistance +1": "+1 to all saves",
+		"Gemstones": "2 Gems worth 50 GP each.",
+		"Belt Pouch 1": "Flint & Steel",
+		"Belt Pouch 2": "Potion of CLW x2"
+	},
+	"Notes": {
+		"Immunities": "Sleep, +2 bonus to enchantment",
+		"Weapon Proficiencies": "Club, Heavy Crossbow, Light Crossbow, Dagger, Grapple, Longbow, Longsword, Quarterstaff, Rapier, Shortbow, Rays Spells, Touch Spells, Splash Weapons, Unarmed Strike"
+	},
+	"Experience Points": 7405,
+	"Languages": [
+		"Common",
+		"Draconic",
+		"Dwarven",
+		"Elven",
+		"Goblin",
+		"Orc",
+		"Sylvan"
+	],
+	"Spellbook": {
+		"Cantrips": [
+			{
+				"name": "Acid Splash",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/acidSplash.html#acidsplash"
+			},
+			{
+				"name": "Arcane Mark",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/arcaneMark.html#arcanemark"
+			},
+			{
+				"name": "Detect Magic",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/detectMagic.html#detect-magic"
+			},
+			{
+				"name": "Dancing Lights",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/dancingLights.html#dancinglights"
+			},
+			{
+				"name": "Detect Poison",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/detectPoison.html#detect-poison"
+			},
+			{
+				"name": "Read Magic",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/readMagic.html#read-magic"
+			},
+			{
+				"name": "Light",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/light.html#light"
+			},
+			{
+				"name": "Mage Hand",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/mageHand.html#mage-hand"
+			},
+			{
+				"name": "Flare",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/flare.html#flare"
+			},
+			{
+				"name": "Ghost Sound",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/ghostSound.html#ghostsound"
+			},
+			{
+				"name": "Prestidigitation",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/prestidigitation.html#prestidigitation"
+			},
+			{
+				"name": "Mending",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/mending.html#mending"
+			},
+			{
+				"name": "Message",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/message.html#message"
+			},
+			{
+				"name": "Open/Close",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/openClose.html#open/close"
+			},
+			{
+				"name": "Ray of Frost",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/rayOfFrost.html#ray-of-frost"
+			},
+			{
+				"name": "Resistance",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/resistance.html#resistance"
+			},
+			{
+				"name": "Spark",
+				"url": "https://legacy.aonprd.com/advancedPlayersGuide/spells/spark.html#spark"
+			}
+		],
+		"1st Level": [
+			{
+				"name": "Burning Hands",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/burningHands.html#burning-hands"
+			},
+			{
+				"name": "Feather Fall",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/featherFall.html#feather-fall"
+			},
+			{
+				"name": "Floating Disk",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/floatingDisk.html#floating-disk"
+			},
+			{
+				"name": "Identify",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/identify.html#identify"
+			},
+			{
+				"name": "Mage Armor",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/mageArmor.html#mage-armor"
+			},
+			{
+				"name": "Magic Missile",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/magicMissile.html#magic-missile"
+			},
+			{
+				"name": "Shield",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/shield.html#shield"
+			},
+			{
+				"name": "Grease",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/grease.html#grease"
+			}
+		],
+		"2nd Level": [
+			{
+				"name": "Invisibility",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/invisibility.html#invisibility"
+			},
+			{
+				"name": "Mirror Image",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/scorchingRay.html#mirror-image"
+			},
+			{
+				"name": "Scorching Ray",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/scorchingRay.html#scorching-ray"
+			},
+			{
+				"name": "Web",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/scorchingRay.html#web"
+			},
+			{
+				"name": "Acid Arrow",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/acidArrow.html#acid-arrow"
+			}
+		]
+	},
+	"Memorized": {
+		"Cantrips": {
+			"number_of_spells": 4,
+			"spells": [
+				"Detect Magic",
+				"Read Magic",
+				"Light",
+				"Mage Hand"
+			]
+		},
+		"1st Level": {
+			"number_of_spells": 4,
+			"spells": [
+				"Magic Missile",
+				"Mage Armor",
+				"Shield",
+				"Identify"
+			]
+		},
+		"2nd Level": {
+			"number_of_spells": 3,
+			"spells": [
+				"Web",
+                "Used",
+                "Used"
+			]
+		}
+	},
+	"currentHP": 28
 }
