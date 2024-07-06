@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/absev-enordfor-ai/precache-manifest.0f9e94699b38c96767f0b1272b0bcde6.js"
+  "/absev-enordfor-ai/precache-manifest.c03ab1434f7d0a778083d67e50237c0a.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -57,6 +57,9 @@
         "Ring of Protection +1": "AC +1",
         "Silver Blade of the Ancients" : "Longsword +2, 1/day detects hidden or invisible objects and creatures within a 30 foot radius.  Special Material: Silver"    
     },
+    "Notes": {
+
+    },
     "Experience Points": 4000,
     "Languages": ["Common"]
 }

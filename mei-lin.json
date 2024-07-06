@@ -63,6 +63,9 @@
         "Shuriken": "1d2",
         "Golden Chalice": "1/day: can cast augury, 3/day cast cure light wounds"
     },
+    "Notes":{
+
+    },
     "Experience Points": 4000,
     "Languages": ["Common"]
 }

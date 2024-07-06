@@ -50,6 +50,9 @@
         "Belt Pouches": "Contain small items",
         "Silk Rope": "50 ft"
     },
+    "Notes": {
+
+    },
     "Experience Points": 4000,
     "Languages": ["Common", "Elven", "Draconic", "Sylvan"],
     "Spellbook": {
