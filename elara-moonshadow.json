@@ -97,7 +97,8 @@
         "Map Case": "Stores Maps",
         "Scroll Case": "Stores Scrolls",
         "Small Tent": "Keeps you Dry",
-        "Water Skin": "Thirsty? x2"
+        "Water Skin": "Thirsty? x2",
+        "Cloak of Resistance +1": "+1 to all saves"
     },
     "Notes": {
         "Immunities": "Sleep, +2 bonus to enchantment",
