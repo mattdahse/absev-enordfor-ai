@@ -14,6 +14,11 @@
     },
     "HP": 15,
     "AC": 14,
+    "Saves" : {
+        "Reflex": 4,
+        "Fortitude": 4,
+        "Willpower": 4
+    },
     "Money": 145.28,
     "Initiative": "+2",
     "Speed": "30 ft",
@@ -39,20 +44,14 @@
         "Knowledge (Planes)": "+9",
         "Perception": "+4"
     },
-    "Feats": [
-        "Scribe Scroll",
-        "Dodge",
-        "Toughness"
-    ],
+    "Feats": ["Scribe Scroll", "Dodge", "Toughness"],
     "Equipment": {
         "Spellbook": "Contains various spells",
         "Backpack": "Contains adventuring gear",
         "Belt Pouches": "Contain small items",
         "Silk Rope": "50 ft"
     },
-    "Notes": {
-
-    },
+    "Notes": {},
     "Experience Points": 4000,
     "Languages": ["Common", "Elven", "Draconic", "Sylvan"],
     "Spellbook": {
@@ -60,7 +59,21 @@
             {"name": "Detect Magic", "url": "https://legacy.aonprd.com/coreRulebook/spells/detectMagic.html#detect-magic"},
             {"name": "Read Magic", "url": "https://legacy.aonprd.com/coreRulebook/spells/readMagic.html#read-magic"},
             {"name": "Light", "url": "https://legacy.aonprd.com/coreRulebook/spells/light.html#light"},
-            {"name": "Mage Hand", "url": "https://legacy.aonprd.com/coreRulebook/spells/mageHand.html#mage-hand"}
+            {"name": "Mage Hand", "url": "https://legacy.aonprd.com/coreRulebook/spells/mageHand.html#mage-hand"},
+            {"name": "Acid Splash", "url": "https://legacy.aonprd.com/coreRulebook/spells/acidSplash.html#acidsplash"},
+            {"name": "Arcane Mark", "url": "https://legacy.aonprd.com/coreRulebook/spells/arcaneMark.html#arcanemark"},
+            {"name": "Dancing Lights", "url": "https://legacy.aonprd.com/coreRulebook/spells/dancingLights.html#dancinglights"},
+            {"name": "Daze", "url": "https://legacy.aonprd.com/coreRulebook/spells/daze.html#daze"},
+            {"name": "Flare", "url": "https://legacy.aonprd.com/coreRulebook/spells/flare.html#flare"},
+            {"name": "Ghost Sound", "url": "https://legacy.aonprd.com/coreRulebook/spells/ghostSound.html#ghostsound"},
+            {"name": "Prestidigitation", "url": "https://legacy.aonprd.com/coreRulebook/spells/prestidigitation.html#prestidigitation"},
+            {"name": "Detect Poison", "url": "https://legacy.aonprd.com/coreRulebook/spells/detectPoison.html#detect-poison"},
+            {"name": "Mending", "url": "https://legacy.aonprd.com/coreRulebook/spells/mending.html#mending"},
+            {"name": "Message", "url": "https://legacy.aonprd.com/coreRulebook/spells/message.html#message"},
+            {"name": "Open/Close", "url": "https://legacy.aonprd.com/coreRulebook/spells/openClose.html#open/close"},
+            {"name": "Ray of Frost", "url": "https://legacy.aonprd.com/coreRulebook/spells/rayOfFrost.html#ray-of-frost"},
+            {"name": "Resistance", "url": "https://legacy.aonprd.com/coreRulebook/spells/resistance.html#resistance"},
+            {"name": "Spark", "url": "https://legacy.aonprd.com/advancedPlayersGuide/spells/spark.html#spark"}
         ],
         "1st Level": [
             {"name": "Magic Missile", "url": "https://legacy.aonprd.com/coreRulebook/spells/magicMissile.html#magic-missile"},
@@ -83,29 +96,16 @@
     "Memorized": {
         "Cantrips": {
             "number_of_spells": 4,
-            "spells": [
-                "Detect Magic",
-                "Read Magic",
-                "Light", 
-                "Mage Hand"
-            ]
+            "spells": ["Detect Magic", "Read Magic", "Light", "Mage Hand"]
         },
         "1st Level": {
             "number_of_spells": 4,
-            "spells": [
-                "Magic Missile", 
-                "Mage Armor",
-                "Shield", 
-                "Identify"
-            ]
+            "spells": ["Magic Missile", "Mage Armor", "Shield", "Identify"]
         },
         "2nd Level": {
             "number_of_spells": 3,
-            "spells": [
-                "Scorching Ray", 
-                "Scorching Ray", 
-                "Invisibility"
-            ]
+            "spells": ["Scorching Ray", "Scorching Ray", "Invisibility"]
         }
-    }
+    },
+    "currentHP": 15
 }

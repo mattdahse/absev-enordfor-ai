@@ -12,6 +12,11 @@
         "Wisdom": 10,
         "Charisma": 16
     },
+    "Saves": {
+        "Reflex": 9,
+        "Fortitude": 4,
+        "Willpower": 2
+    },
     "HP": 26,
     "AC": 18,
     "Money": 138.25,

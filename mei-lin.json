@@ -8,24 +8,29 @@
         "Strength": 14,
         "Dexterity": 18,
         "Constitution": 14,
-        "Intelligence": 10,
+        "Intelligence": 12,
         "Wisdom": 16,
-        "Charisma": 12
+        "Charisma": 10
     },
-    "HP": 21,
-    "AC": 20,
+    "Saves" : {
+        "Reflex" : 9,
+        "Fortitude": 7,
+        "Willpower": 8
+    },
+    "HP": 28,
+    "AC": 21,
     "Money": 130.68,
-    "Initiative": "+4",
-    "Speed": "30 ft",
+    "Initiative": "+8",
+    "Speed": "40 ft",
     "Attacks": {
         "Unarmed Strike": {
-            "Attack Bonus": "+7",
-            "Damage": "1d6+2",
+            "Attack Bonus": "+8",
+            "Damage": "1d10+2",
             "Special": "Flurry of Blows, Stunning Fist"
         },
         "Nunchaku": {
-            "Attack Bonus": "+7",
-            "Damage": "1d6+2",
+            "Attack Bonus": "+8",
+            "Damage": "1d10+2",
             "Special": "Flurry of Blows, Stunning Fist"
         }
     },
@@ -39,7 +44,8 @@
             "DC": 14
         },
         "Evasion": "No damage on successful Reflex save",
-        "Fast Movement": "+10 ft speed"
+        "Fast Movement": "+10 ft speed",
+        "Ki Pool" : "5"
     },
     "Skills": {
         "Acrobatics": "+12",
@@ -50,9 +56,15 @@
     },
     "Feats": [
         "Improved Unarmed Strike",
-        "Stunning Fist",
-        "Combat Reflexes",
-        "Deflect Arrows"
+        "Stunning Fist (4/day) - Fort DC 14",
+        "Combat Reflexes (up to 5 attacks of opportunity)",
+        "Deflect Arrows",
+        "Fast Movement",
+        "Dodge",
+        "Mobility",
+        "Improved Initiative",
+        "Maneuver Training +1 to CMB",
+        "Still Mind (+2 bonus on saving for enchantment spells & effects)"
     ],
     "Equipment": {
         "Monk's Robe": "AC +1",
@@ -66,6 +78,6 @@
     "Notes":{
 
     },
-    "Experience Points": 4000,
+    "Experience Points": 7000,
     "Languages": ["Common"]
 }
