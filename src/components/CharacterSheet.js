@@ -55,8 +55,8 @@ const CharacterSheet = ({ character, imagePath }) => {
   const saveChanges = () => {
     let updatedData = { ...data };
 
-    if (editableField === 'Equipment') {
-      updatedData.Equipment[editableKey] = modalContent;
+    if (editableField === 'Equipment' || editableField === 'Notes') {
+      updatedData[editableField][editableKey] = modalContent;
     } else if (editableField === 'Memorized') {
       const [level, index] = editableKey.split('-');
       updatedData.Memorized[level].spells[parseInt(index, 10)] = modalContent;
@@ -80,8 +80,8 @@ const CharacterSheet = ({ character, imagePath }) => {
   const deleteProperty = () => {
     let updatedData = { ...data };
 
-    if (editableField === 'Equipment') {
-      delete updatedData.Equipment[editableKey];
+    if (editableField === 'Equipment' || editableField === 'Notes') {
+      delete updatedData[editableField][editableKey];
     } else if (editableField === 'Memorized') {
       const [level, index] = editableKey.split('-');
       updatedData.Memorized[level].spells.splice(parseInt(index, 10), 1);
@@ -101,6 +101,16 @@ const CharacterSheet = ({ character, imagePath }) => {
     const newKey = prompt('Enter the name of the new equipment item:');
     if (newKey) {
       const updatedData = { ...data, Equipment: { ...data.Equipment, [newKey]: '' } };
+      setData(updatedData);
+      const localStorageKey = `characterData_${data.Name}`;
+      localStorage.setItem(localStorageKey, JSON.stringify(updatedData));
+    }
+  };
+
+  const addNote = () => {
+    const newKey = prompt('Enter the title of the new note:');
+    if (newKey) {
+      const updatedData = { ...data, Notes: { ...data.Notes, [newKey]: '' } };
       setData(updatedData);
       const localStorageKey = `characterData_${data.Name}`;
       localStorage.setItem(localStorageKey, JSON.stringify(updatedData));
@@ -148,7 +158,7 @@ const CharacterSheet = ({ character, imagePath }) => {
             <div className="hit-points section">
               <h3>Hit Points</h3>
               <p>{data.HP}</p>
-              <h3>Current HP <img src="pencil.png" alt="Edit" onClick={() => openModal('currentHP', '', currentHP)} className="edit-icon" /></h3>
+              <h3>Current HP <img src="/pencil.png" alt="Edit" onClick={() => openModal('currentHP', '', currentHP)} className="edit-icon" /></h3>
               <p>{currentHP}</p>
             </div>
             <h3>Attributes</h3>
@@ -200,7 +210,7 @@ const CharacterSheet = ({ character, imagePath }) => {
                 <tr key={key}>
                   <th>{key}</th>
                   <td>{value}</td>
-                  <td><img src="pencil.png" alt="Edit" onClick={() => openModal('Equipment', key, value)} className="edit-icon" /></td>
+                  <td><img src="/pencil.png" alt="Edit" onClick={() => openModal('Equipment', key, value)} className="edit-icon" /></td>
                 </tr>
               ))}
             </tbody>
@@ -209,7 +219,7 @@ const CharacterSheet = ({ character, imagePath }) => {
         </div>
 
         <div className="money section">
-          <h3>Money <img src="pencil.png" alt="Edit" onClick={() => openModal('Money', '', data.Money)} className="edit-icon" /></h3>
+          <h3>Money <img src="/pencil.png" alt="Edit" onClick={() => openModal('Money', '', data.Money)} className="edit-icon" /></h3>
           <p>{money.gold} gp, {money.silver} sp, {money.copper} cp</p>
         </div>
 
@@ -251,6 +261,27 @@ const CharacterSheet = ({ character, imagePath }) => {
           </ul>
         </div>
 
+        <div className="experience-points section">
+          <h3>Experience Points <img src="/pencil.png" alt="Edit" onClick={() => openModal('Experience Points', '', data['Experience Points'])} className="edit-icon" /></h3>
+          <p>{data['Experience Points']}</p>
+        </div>
+
+        <div className="notes section">
+          <h3>Notes</h3>
+          <table>
+            <tbody>
+              {Object.entries(data.Notes).map(([key, value]) => (
+                <tr key={key}>
+                  <th>{key}</th>
+                  <td>{value}</td>
+                  <td><img src="/pencil.png" alt="Edit" onClick={() => openModal('Notes', key, value)} className="edit-icon" /></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          <button onClick={addNote}>Add New Note</button>
+        </div>
+
         {data.Spellbook && (
           <div className="spellbook section">
             <h3>Spellbook</h3>
@@ -279,7 +310,7 @@ const CharacterSheet = ({ character, imagePath }) => {
                   {memorized.spells.map((spell, index) => (
                     <li key={`${spell}-${index}`}>
                       {spell}
-                      <img src="pencil.png" alt="Edit" onClick={() => openModal('Memorized', `${level}-${index}`, spell)} className="edit-icon" />
+                      <img src="./pencil.png" alt="Edit" onClick={() => openModal('Memorized', `${level}-${index}`, spell)} className="edit-icon" />
                     </li>
                   ))}
                 </ul>
@@ -292,7 +323,7 @@ const CharacterSheet = ({ character, imagePath }) => {
           isOpen={isModalOpen} 
           onClose={closeModal} 
           onSave={saveChanges} 
-          onDelete={editableField === 'Equipment' || editableField === 'Memorized' ? deleteProperty : null}
+          onDelete={editableField === 'Equipment' || editableField === 'Notes' || editableField === 'Memorized' ? deleteProperty : null}
           title={`Edit ${editableField} ${editableKey}`}
         >
           {editableField === 'Memorized' ? (

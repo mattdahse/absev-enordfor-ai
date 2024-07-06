@@ -1,56 +1,66 @@
 {
-    "Name": "Liu Zhou",
-    "Class": "Monk",
-    "Level": 1,
-    "Alignment": "Lawful Neutral",
-    "Race": "Human",
-    "Abilities": {
-        "Strength": 14,
-        "Dexterity": 18,
-        "Constitution": 12,
-        "Intelligence": 10,
-        "Wisdom": 16,
-        "Charisma": 8
-    },
-    "HP": 10,
-    "AC": 16,
-    "Money": 70,
-    "Initiative": "+4",
-    "Speed": "30 ft",
-    "Attacks": {
-        "Unarmed Strike": {
-            "Attack Bonus": "+4",
-            "Damage": "1d6+2",
-            "Special": "Flurry of Blows, Stunning Fist"
-        }
-    },
-    "Special Abilities": {
-        "Flurry of Blows": {
-            "Attack Bonus": "+2/+2",
-            "Damage": "1d6+2"
-        },
-        "Stunning Fist": {
-            "Uses per Day": 1,
-            "DC": 13
-        },
-        "Unarmed Strike": "1d6 damage"
-    },
-    "Skills": {
-        "Acrobatics": "+8",
-        "Perception": "+7",
-        "Sense Motive": "+7",
-        "Stealth": "+8"
-    },
-    "Feats": [
-        "Improved Unarmed Strike",
-        "Dodge",
-        "Combat Reflexes"
-    ],
-    "Equipment": {
-        "Monk's Outfit": "No cost, no armor check penalty",
-        "Backpack": "Carries gear",
-        "Waterskin": "Holds water",
-        "Trail Rations (1 week)": "Food for traveling"
-    },
-    "Languages": ["Common"]
+	"Name": "Liu Zhou",
+	"Class": "Monk",
+	"Level": 1,
+	"Alignment": "Lawful Neutral",
+	"Race": "Human",
+	"Abilities": {
+		"Strength": 14,
+		"Dexterity": 18,
+		"Constitution": 12,
+		"Intelligence": 10,
+		"Wisdom": 16,
+		"Charisma": 8
+	},
+	"HP": 10,
+	"AC": 16,
+	"Money": 70,
+	"Initiative": "+4",
+	"Speed": "30 ft",
+	"Attacks": {
+		"Unarmed Strike": {
+			"Attack Bonus": "+4",
+			"Damage": "1d6+2",
+			"Special": "Flurry of Blows, Stunning Fist"
+		}
+	},
+	"Special Abilities": {
+		"Flurry of Blows": {
+			"Attack Bonus": "+2/+2",
+			"Damage": "1d6+2"
+		},
+		"Stunning Fist": {
+			"Uses per Day": 1,
+			"DC": 13
+		},
+		"Unarmed Strike": "1d6 damage"
+	},
+	"Skills": {
+		"Acrobatics": "+8",
+		"Perception": "+7",
+		"Sense Motive": "+7",
+		"Stealth": "+8"
+	},
+	"Feats": [
+		"Improved Unarmed Strike",
+		"Dodge",
+		"Combat Reflexes"
+	],
+	"Equipment": {
+		"Monk's Outfit": "No cost, no armor check penalty",
+		"Backpack": "Carries gear",
+		"Waterskin": "Holds water",
+		"Trail Rations (1 week)": "Food for traveling",
+		"Potion of Cure Light Wounds (x2)": "Heal for 1D8 +1",
+		"Lotus Pendant": "Petals are etched with runes representing balance, wisdom, and protection. The pendant appears to be imbued with a subtle, yet powerful, magic.",
+		"Guardian of Xiangshui": "Glowing gemstone amulet - artifact of unknown powers and properties"
+	},
+	"Notes": {
+		"Markings on Wolves": "Found several markings on the necks of the wolves that were threatening the village.",
+		"Alchemical Equipment": "Found 3 glass vials, some powders in corked bamboo tubes, and several scrolls.\nThe scrolls seem to have recipes written in a strange language."
+	},
+	"Experience Points": 900,
+	"Languages": [
+		"Common"
+	]
 }
