@@ -1,14 +1,14 @@
 {
     "Name": "Lira Swiftblade",
     "Class": "Rogue",
-    "Level": 3,
+    "Level": 4,
     "Alignment": "Chaotic Good",
     "Race": "Human",
     "Abilities": {
         "Strength": 12,
         "Dexterity": 18,
         "Constitution": 14,
-        "Intelligence": 14,
+        "Intelligence": 15,
         "Wisdom": 10,
         "Charisma": 16
     },
@@ -17,24 +17,24 @@
         "Fortitude": 4,
         "Willpower": 2
     },
-    "HP": 26,
+    "HP": 32,
     "AC": 18,
     "Money": 138.25,
     "Initiative": "+8",
     "Speed": "30 ft",
     "Attacks": {
         "Rapier +1": {
-            "Attack Bonus": "+7",
+            "Attack Bonus": "+8",
             "Damage": "1d6+2",
             "Special": "Finesse"
         },
         "Masterwork Dagger": {
-            "Attack Bonus": "+7",
+            "Attack Bonus": "+8",
             "Damage": "1d4+1",
             "Special": "Finesse"
         },
         "Short Bow" : {
-            "Attack Bonus" : "+6",
+            "Attack Bonus" : "+7",
             "Damage": "1D6",
             "Special": "Range 60"
         }
@@ -43,25 +43,30 @@
         "Sneak Attack": "+2d6 damage",
         "Trapfinding": "+1 to find or disable traps",
         "Trap Sense": "+1 to reflex save or AC vs traps",
-        "Evasion": "No damage on successful Reflex save"
+        "Evasion": "No damage on successful Reflex save",
+        "Uncanny Dodge": "Cannot be caught flat-footed",
+        "Combat Trick": "new feat - Mobility"
     },
     "Skills": {
-        "Acrobatics": "+10",
-        "Bluff": "+9",
-        "Climb": "+7",
-        "Disable Device": "+11",
-        "Perception": "+7",
-        "Sleight of Hand": "+10",
-        "Stealth": "+10",
-        "Knowledge Local" : "+8",
-        "Sense Motive": "+6",
-        "Use Magic Device": "+9"
+        "Acrobatics": "+11",
+        "Bluff": "+10",
+        "Climb": "8",
+        "Disable Device": "+12",
+        "Perception": "+8",
+        "Sleight of Hand": "+11",
+        "Stealth": "+11",
+        "Knowledge Local" : "+9",
+        "Sense Motive": "+7",
+        "Use Magic Device": "+10",
+        "Diplomacy": "+10",
+        "Escape Artist" : "+11"
     },
     "Feats": [
         "Weapon Finesse",
         "Dodge",
         "Improved Initiative",
-        "Combat Expertise"
+        "Combat Expertise",
+        "Mobility"
     ],
     "Equipment": {
         "Leather Armor": "AC +2",
@@ -75,6 +80,6 @@
     "Notes": {
 
     },
-    "Experience Points": 4000,
-    "Languages": ["Common"]
+    "Experience Points": 7000,
+    "Languages": ["Common", "Goblin", "Elven"]
 }

@@ -1,7 +1,7 @@
 {
     "Name": "Mei Lin",
     "Class": "Monk",
-    "Level": 3,
+    "Level": 4,
     "Alignment": "Lawful Neutral",
     "Race": "Human",
     "Abilities": {
@@ -24,7 +24,7 @@
     "Speed": "40 ft",
     "Attacks": {
         "Unarmed Strike": {
-            "Attack Bonus": "+8",
+            "Attack Bonus": "+9",
             "Damage": "1d10+2",
             "Special": "Flurry of Blows, Stunning Fist"
         },
@@ -36,8 +36,8 @@
     },
     "Special Abilities": {
         "Flurry of Blows": {
-            "Attack Bonus": "+5/+5",
-            "Damage": "1d6+2"
+            "Attack Bonus": "+6/+6",
+            "Damage": "1d10+2"
         },
         "Stunning Fist": {
             "Uses per Day": 3,
@@ -52,7 +52,9 @@
         "Climb": "+6",
         "Perception": "+8",
         "Sense Motive": "+8",
-        "Stealth": "+12"
+        "Stealth": "+12",
+        "Knowledge, History": "+5",
+        "Knowledge, Religion": "+5"
     },
     "Feats": [
         "Improved Unarmed Strike",
@@ -64,7 +66,8 @@
         "Mobility",
         "Improved Initiative",
         "Maneuver Training +1 to CMB",
-        "Still Mind (+2 bonus on saving for enchantment spells & effects)"
+        "Still Mind (+2 bonus on saving for enchantment spells & effects)",
+        "Weapon Focus"
     ],
     "Equipment": {
         "Monk's Robe": "AC +1",
