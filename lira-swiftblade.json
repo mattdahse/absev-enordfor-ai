@@ -54,7 +54,9 @@
         "Rapier +1": "1d6+1",
         "Masterwork Dagger": "1d4+1",
         "Thieves' Tools": "For disabling traps and picking locks",
-        "Ring of Protection +1": "AC +1"
+        "Ring of Protection +1": "AC +1",
+        "Silver Blade of the Ancients" : "Longsword +2, 1/day detects hidden or invisible objects and creatures within a 30 foot radius.  Special Material: Silver"    
     },
+    "Experience Points": 4000,
     "Languages": ["Common"]
 }

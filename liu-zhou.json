@@ -50,7 +50,14 @@
         "Monk's Outfit": "No cost, no armor check penalty",
         "Backpack": "Carries gear",
         "Waterskin": "Holds water",
-        "Trail Rations (1 week)": "Food for traveling"
+        "Trail Rations (1 week)": "Food for traveling",
+        "Potion of Cure Light Wounds (x2)" : "Heal for 1D8 +1",
+        "Lotus Pendant": "Petals are etched with runes representing balance, wisdom, and protection. The pendant appears to be imbued with a subtle, yet powerful, magic.",
+        "Guardian of Xiangshui": "Glowing gemstone amulet - artifact of unknown powers and properties"
     },
+    "Notes": {
+        "Markings on Wolves": "Found several markings on the necks of the wolves that were threatening the village."
+    },
+    "Experience Points": 900,
     "Languages": ["Common"]
 }
