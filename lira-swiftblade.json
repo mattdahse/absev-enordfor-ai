@@ -8,50 +8,60 @@
         "Strength": 12,
         "Dexterity": 18,
         "Constitution": 14,
-        "Intelligence": 10,
-        "Wisdom": 12,
-        "Charisma": 14
+        "Intelligence": 14,
+        "Wisdom": 10,
+        "Charisma": 16
     },
-    "HP": 22,
-    "AC": 17,
+    "HP": 26,
+    "AC": 18,
     "Money": 138.25,
-    "Initiative": "+4",
+    "Initiative": "+8",
     "Speed": "30 ft",
     "Attacks": {
         "Rapier +1": {
-            "Attack Bonus": "+8",
-            "Damage": "1d6+1",
+            "Attack Bonus": "+7",
+            "Damage": "1d6+2",
             "Special": "Finesse"
         },
         "Masterwork Dagger": {
             "Attack Bonus": "+7",
             "Damage": "1d4+1",
             "Special": "Finesse"
+        },
+        "Short Bow" : {
+            "Attack Bonus" : "+6",
+            "Damage": "1D6",
+            "Special": "Range 60"
         }
     },
     "Special Abilities": {
         "Sneak Attack": "+2d6 damage",
         "Trapfinding": "+1 to find or disable traps",
+        "Trap Sense": "+1 to reflex save or AC vs traps",
         "Evasion": "No damage on successful Reflex save"
     },
     "Skills": {
-        "Acrobatics": "+9",
-        "Bluff": "+8",
+        "Acrobatics": "+10",
+        "Bluff": "+9",
         "Climb": "+7",
         "Disable Device": "+11",
-        "Perception": "+9",
-        "Sleight of Hand": "+9",
-        "Stealth": "+9"
+        "Perception": "+7",
+        "Sleight of Hand": "+10",
+        "Stealth": "+10",
+        "Knowledge Local" : "+8",
+        "Sense Motive": "+6",
+        "Use Magic Device": "+9"
     },
     "Feats": [
         "Weapon Finesse",
         "Dodge",
-        "Mobility"
+        "Improved Initiative",
+        "Combat Expertise"
     ],
     "Equipment": {
         "Leather Armor": "AC +2",
         "Cloak of Resistance +1": "+1 to all saves",
-        "Rapier +1": "1d6+1",
+        "Rapier +1": "1d6+2",
         "Masterwork Dagger": "1d4+1",
         "Thieves' Tools": "For disabling traps and picking locks",
         "Ring of Protection +1": "AC +1",
