@@ -13,9 +13,9 @@
 		"Charisma": 10
 	},
 	"Saves": {
-		"Reflex": 9,
-		"Fortitude": 7,
-		"Willpower": 8
+		"Reflex": 10,
+		"Fortitude": 8,
+		"Willpower": 9
 	},
 	"HP": 28,
 	"AC": 21,
