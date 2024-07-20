@@ -19,7 +19,7 @@
 		"Reflex": 5,
 		"Willpower": 7
 	},
-	"Money": 145.28,
+	"Money": "280.79",
 	"Initiative": "+3",
 	"Speed": "30 ft",
 	"Attacks": {
@@ -82,25 +82,27 @@
 		"Spell Component Pouch": "Contains Spell Components",
 		"Ring": "Arcane Bond",
 		"Traveler's Outfit": "Traveling Clothes",
-		"Dagger": "Dagger",		
+		"Dagger": "Dagger",
 		"Dagger+1": "Magic +1 Dagger to Hit/Damage",
 		"Arrow": "x25",
 		"Long Sword": "1D8 Damage",
 		"Long Bow": "1D8 Damage",
-		"Map Case": "Bandit Map of Hideout",
-		"Scroll Case": "Invisibility x1, Fireball x2",
+		"Map Case": "Bandit Map of Hideout.\nBandit Documents and Maps.",
+		"Scroll Case": "Invisibility, Fireball x3",
 		"Small Tent": "Keeps you Dry - on Pack Mule",
 		"Water Skin": "Thirsty! x2",
 		"Cloak of Resistance +1": "+1 to all saves",
 		"Gemstones": "2 Gems worth 50 GP each.",
 		"Belt Pouch 1": "Flint & Steel",
-		"Belt Pouch 2": "Potion of CLW x2"
+		"Belt Pouch 2": "Potion of CLW x2",
+		"Silver Blade of the Ancients": "Longsword +2, 1/day detects hidden or invisible objects and creatures within a 30 foot radius. Special Material: Silver"
 	},
 	"Notes": {
 		"Immunities": "Sleep, +2 bonus to enchantment",
-		"Weapon Proficiencies": "Club, Heavy Crossbow, Light Crossbow, Dagger, Grapple, Longbow, Longsword, Quarterstaff, Rapier, Shortbow, Rays Spells, Touch Spells, Splash Weapons, Unarmed Strike"
+		"Weapon Proficiencies": "Club, Heavy Crossbow, Light Crossbow, Dagger, Grapple, Longbow, Longsword, Quarterstaff, Rapier, Shortbow, Rays Spells, Touch Spells, Splash Weapons, Unarmed Strike",
+		"Force Missile: 1D4+1": "7xDay: Uses = 6"
 	},
-	"Experience Points": 7405,
+	"Experience Points": "8205",
 	"Languages": [
 		"Common",
 		"Draconic",
@@ -251,8 +253,8 @@
 		"1st Level": {
 			"number_of_spells": 4,
 			"spells": [
-				"Magic Missile",
-				"Mage Armor",
+				"Used",
+				"Used",
 				"Shield",
 				"Identify"
 			]
@@ -261,10 +263,10 @@
 			"number_of_spells": 3,
 			"spells": [
 				"Web",
-                "Used",
-                "Used"
+				"Used",
+				"Used"
 			]
 		}
 	},
-	"currentHP": 28
+	"currentHP": "25"
 }
