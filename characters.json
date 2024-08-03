@@ -10,12 +10,17 @@
       "image": "./elara-moonshadow.webp"
     },
     {
+      "name": "Alric Greenleaf",
+      "file": "./alric-greenleaf.json",
+      "image": "./alric-greenleaf.webp"
+    },
+    {
         "name": "Lira Swiftblade",
         "file": "./lira-swiftblade.json",
         "image": "./lira-swiftblade.webp"
     },
     {
-        "name":"Liu Zhou",
+        "name":"Liu Zhou?",
         "file": "./liu-zhou.json",
         "image": "./liu-zhou.webp"
     }
