@@ -42,7 +42,7 @@
 			"Attack Bonus": "+8",
 			"Damage": "1d4+2",
 			"Special": "Finesse - threat range 17-20"
-		},
+		}
 	},
 	"Special Abilities": {
 		"Sneak Attack": "+2d6 damage",
