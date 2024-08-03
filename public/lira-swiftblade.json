@@ -1,85 +1,98 @@
 {
-    "Name": "Lira Swiftblade",
-    "Class": "Rogue",
-    "Level": 4,
-    "Alignment": "Chaotic Good",
-    "Race": "Human",
-    "Abilities": {
-        "Strength": 12,
-        "Dexterity": 18,
-        "Constitution": 14,
-        "Intelligence": 15,
-        "Wisdom": 10,
-        "Charisma": 16
-    },
-    "Saves": {
-        "Reflex": 9,
-        "Fortitude": 4,
-        "Willpower": 2
-    },
-    "HP": 32,
-    "AC": 18,
-    "Money": 138.25,
-    "Initiative": "+8",
-    "Speed": "30 ft",
-    "Attacks": {
-        "Rapier +1": {
-            "Attack Bonus": "+8",
-            "Damage": "1d6+2",
-            "Special": "Finesse"
-        },
-        "Masterwork Dagger": {
-            "Attack Bonus": "+8",
-            "Damage": "1d4+1",
-            "Special": "Finesse"
-        },
-        "Short Bow" : {
-            "Attack Bonus" : "+7",
-            "Damage": "1D6",
-            "Special": "Range 60"
-        }
-    },
-    "Special Abilities": {
-        "Sneak Attack": "+2d6 damage",
-        "Trapfinding": "+1 to find or disable traps",
-        "Trap Sense": "+1 to reflex save or AC vs traps",
-        "Evasion": "No damage on successful Reflex save",
-        "Uncanny Dodge": "Cannot be caught flat-footed",
-        "Combat Trick": "new feat - Mobility"
-    },
-    "Skills": {
-        "Acrobatics": "+11",
-        "Bluff": "+10",
-        "Climb": "8",
-        "Disable Device": "+12",
-        "Perception": "+8",
-        "Sleight of Hand": "+11",
-        "Stealth": "+11",
-        "Knowledge Local" : "+9",
-        "Sense Motive": "+7",
-        "Use Magic Device": "+10",
-        "Diplomacy": "+10",
-        "Escape Artist" : "+11"
-    },
-    "Feats": [
-        "Weapon Finesse",
-        "Dodge",
-        "Improved Initiative",
-        "Combat Expertise",
-        "Mobility"
-    ],
-    "Equipment": {
-        "Leather Armor": "AC +2",
-        "Cloak of Resistance +1": "+1 to all saves",
-        "Rapier +1": "1d6+2",
-        "Masterwork Dagger": "1d4+1",
-        "Thieves' Tools": "For disabling traps and picking locks",
-        "Ring of Protection +1": "AC +1",
-        "Silver Blade of the Ancients" : "Longsword +2, 1/day detects hidden or invisible objects and creatures within a 30 foot radius.  Special Material: Silver"    
-    },
-    "Notes": {
-
-    },
-    "Experience Points": 7000,
-    "Languages": ["Common", "Goblin", "Elven"]
+	"Name": "Lira Swiftblade",
+	"Class": "Rogue",
+	"Level": 4,
+	"Alignment": "Chaotic Good",
+	"Race": "Human",
+	"Abilities": {
+		"Strength": 12,
+		"Dexterity": 18,
+		"Constitution": 14,
+		"Intelligence": 15,
+		"Wisdom": 10,
+		"Charisma": 16
+	},
+	"Saves": {
+		"Reflex": 9,
+		"Fortitude": 4,
+		"Willpower": 2
+	},
+	"HP": 32,
+	"AC": 19,
+	"Money": "287.75",
+	"Initiative": "+8",
+	"Speed": "30 ft",
+	"Attacks": {
+		"Rapier +1": {
+			"Attack Bonus": "+8",
+			"Damage": "1d6+2",
+			"Special": "Finesse"
+		},
+		"Masterwork Dagger": {
+			"Attack Bonus": "+8",
+			"Damage": "1d4+1",
+			"Special": "Finesse"
+		},
+		"Short Bow": {
+			"Attack Bonus": "+7",
+			"Damage": "1D6",
+			"Special": "Range 60"
+		},
+		"Keen Dagger": {
+			"Attack Bonus": "+8",
+			"Damage": "1d4+2",
+			"Special": "Finesse - threat range 17-20"
+		},
+	},
+	"Special Abilities": {
+		"Sneak Attack": "+2d6 damage",
+		"Trapfinding": "+1 to find or disable traps",
+		"Trap Sense": "+1 to reflex save or AC vs traps",
+		"Evasion": "No damage on successful Reflex save",
+		"Uncanny Dodge": "Cannot be caught flat-footed",
+		"Combat Trick": "new feat - Mobility"
+	},
+	"Skills": {
+		"Acrobatics": "+11",
+		"Bluff": "+10",
+		"Climb": "8",
+		"Disable Device": "+12",
+		"Perception": "+8",
+		"Sleight of Hand": "+11",
+		"Stealth": "+11",
+		"Knowledge Local": "+9",
+		"Sense Motive": "+7",
+		"Use Magic Device": "+10",
+		"Diplomacy": "+10",
+		"Escape Artist": "+11"
+	},
+	"Feats": [
+		"Weapon Finesse",
+		"Dodge",
+		"Improved Initiative",
+		"Combat Expertise",
+		"Mobility"
+	],
+	"Equipment": {
+		"Leather Armor": "AC +2",
+		"Cloak of Resistance +1": "+1 to all saves",
+		"Rapier +1": "1d6+2",
+		"Masterwork Dagger": "1d4+1",
+		"Thieves' Tools": "For disabling traps and picking locks",
+		"Ring of Protection +1": "AC +1",
+		"Scroll of Fireball": "boom",
+		"Scroll of Invisibility": "What noise?",
+		"Gemstones": "4 gems worth 50gp each",
+		"Ring of featherfall": "ring cast the feather fall spell if the character falls more than 5 foot.",
+		"Dagger +1 keen": "1d4+1 damage, with a crit threat range of 17-20/x2",
+		"Amulet of natural armor +1": "+1 AC natural armor"
+	},
+	"Notes": {
+	},
+	"Experience Points": 8205,
+	"Languages": [
+		"Common",
+		"Goblin",
+		"Elven"
+	]
 }

@@ -343,6 +343,7 @@ const CharacterSheet = ({ character, imagePath }) => {
         >
           {editableField === 'Memorized' ? (
             <select value={modalContent} onChange={(e) => setModalContent(e.target.value)}>
+              <option value="Used">Used</option>
               {data.Spellbook[editableKey.split('-')[0]].map((spell, index) => (
                 <option key={`${spell.name}-${index}`} value={spell.name}>{spell.name}</option>
               ))}
