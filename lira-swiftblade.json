@@ -18,8 +18,8 @@
 		"Willpower": 2
 	},
 	"HP": 32,
-	"AC": 19,
-	"Money": "287.75",
+	"AC": 18,
+	"Money": "348.25",
 	"Initiative": "+8",
 	"Speed": "30 ft",
 	"Attacks": {
@@ -37,11 +37,6 @@
 			"Attack Bonus": "+7",
 			"Damage": "1D6",
 			"Special": "Range 60"
-		},
-		"Keen Dagger": {
-			"Attack Bonus": "+8",
-			"Damage": "1d4+2",
-			"Special": "Finesse - threat range 17-20"
 		}
 	},
 	"Special Abilities": {
@@ -85,11 +80,13 @@
 		"Gemstones": "4 gems worth 50gp each",
 		"Ring of featherfall": "ring cast the feather fall spell if the character falls more than 5 foot.",
 		"Dagger +1 keen": "1d4+1 damage, with a crit threat range of 17-20/x2",
-		"Amulet of natural armor +1": "+1 AC natural armor"
+		"amulet of natural armor +1": "+1 AC natural armor",
+		"gemstone": "50 gp value",
+		"cloak of invisibility": "activate as a standard action, causes wearer to become invisible as the spell."
 	},
 	"Notes": {
 	},
-	"Experience Points": 8205,
+	"Experience Points": 7405,
 	"Languages": [
 		"Common",
 		"Goblin",

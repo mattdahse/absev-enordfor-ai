@@ -12,14 +12,14 @@
 		"Wisdom": 14,
 		"Charisma": 12
 	},
-	"HP": 28,
+	"HP": 32,
 	"AC": 14,
 	"Saves": {
 		"Fortitude": 3,
 		"Reflex": 5,
 		"Willpower": 7
 	},
-	"Money": "280.79",
+	"Money": "378.79",
 	"Initiative": "+3",
 	"Speed": "30 ft",
 	"Attacks": {
@@ -87,22 +87,27 @@
 		"Arrow": "x25",
 		"Long Sword": "1D8 Damage",
 		"Long Bow": "1D8 Damage",
-		"Map Case": "Bandit Map of Hideout.\nBandit Documents and Maps.",
-		"Scroll Case": "Invisibility, Fireball x3",
+		"Map Case": "Bandit Map of Hideout.\nBandit Documents and Maps.\nBandit Map Fragment found in Monastary Main Temple.",
+		"Scroll Case": "Dispel Magic\nIdentify\nInvisibility\nFireball x2",
 		"Small Tent": "Keeps you Dry - on Pack Mule",
 		"Water Skin": "Thirsty! x2",
 		"Cloak of Resistance +1": "+1 to all saves",
-		"Gemstones": "2 Gems worth 50 GP each.",
 		"Belt Pouch 1": "Flint & Steel",
 		"Belt Pouch 2": "Potion of CLW x2",
-		"Silver Blade of the Ancients": "Longsword +2, 1/day detects hidden or invisible objects and creatures within a 30 foot radius. Special Material: Silver"
+		"Silver Blade of the Ancients": "Longsword +2, 1/day detects hidden or invisible objects and creatures within a 30 foot radius. Special Material: Silver",
+		"Ring of Protection +1": "Provides +1 to AC (Deflection) ",
+		"Amulet of Lesser Health": "Provides +2 Constitution",
+		"Party Treasure": "65.5 GP",
+		"Varik's Journal": "Notes about Monastary and future raids"
 	},
 	"Notes": {
 		"Immunities": "Sleep, +2 bonus to enchantment",
 		"Weapon Proficiencies": "Club, Heavy Crossbow, Light Crossbow, Dagger, Grapple, Longbow, Longsword, Quarterstaff, Rapier, Shortbow, Rays Spells, Touch Spells, Splash Weapons, Unarmed Strike",
-		"Force Missile: 1D4+1": "7xDay: Uses = 6"
+		"Force Missile: 1D4+1": "7xDay: Uses = ",
+		"Silver Blade of the Ancients": "1/day detects hidden or invisible objects and creatures within a 30 foot radius.\nUsed = 1",
+		"Ornate Silver Pendant and Set of Old Keys (Monastary Dormitory)": ""
 	},
-	"Experience Points": "8205",
+	"Experience Points": "9955",
 	"Languages": [
 		"Common",
 		"Draconic",
@@ -224,7 +229,7 @@
 			},
 			{
 				"name": "Mirror Image",
-				"url": "https://legacy.aonprd.com/coreRulebook/spells/scorchingRay.html#mirror-image"
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/mirrorImage.html#mirror-image"
 			},
 			{
 				"name": "Scorching Ray",
@@ -232,7 +237,7 @@
 			},
 			{
 				"name": "Web",
-				"url": "https://legacy.aonprd.com/coreRulebook/spells/scorchingRay.html#web"
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/web.html#web"
 			},
 			{
 				"name": "Acid Arrow",
@@ -247,26 +252,26 @@
 				"Detect Magic",
 				"Read Magic",
 				"Light",
-				"Mage Hand"
+				"Acid Splash"
 			]
 		},
 		"1st Level": {
 			"number_of_spells": 4,
 			"spells": [
+				"Burning Hands",
 				"Used",
 				"Used",
-				"Shield",
 				"Identify"
 			]
 		},
 		"2nd Level": {
 			"number_of_spells": 3,
 			"spells": [
-				"Web",
+				"Acid Arrow",
 				"Used",
-				"Used"
+				"Web"
 			]
 		}
 	},
-	"currentHP": "25"
+	"currentHP": "32"
 }
