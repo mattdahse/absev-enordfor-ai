@@ -82,15 +82,15 @@
         "Scroll of Protection from Evil": "Casts Protection from Evil"
     },
     "Notes": {
-        "Languages": [
-            "Common",
-            "Elven"
-        ],
         "Low-Light Vision": "Half-elves can see twice as far as humans in conditions of dim light.",
         "Elven Immunities": "Immune to magic sleep effects and a +2 racial saving throw bonus against enchantment spells and effects.",
         "Multitalented": "Choose two favored classes at first level and gain +1 hit point or +1 skill rank whenever you take a level in either of those classes."
     },
     "Experience Points": "9000",
+    "Languages": [
+        "Common",
+        "Elven"
+    ],
     "Spellbook": {
         "1st Level": [
             {
