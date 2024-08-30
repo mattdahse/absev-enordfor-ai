@@ -7,8 +7,9 @@ const JsonViewer = ({ selectedCharacter }) => {
   const [characters, setCharacters] = useState([]);
 
   useEffect(() => {
+    const publicUrl = process.env.PUBLIC_URL || '';
     console.log('Fetching characters.json');
-    fetch(`${process.env.PUBLIC_URL}/characters.json`)
+    fetch(`${publicUrl}/characters.json`)
       .then(response => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
@@ -26,12 +27,13 @@ const JsonViewer = ({ selectedCharacter }) => {
   }, []);
 
   useEffect(() => {
+    const publicUrl = process.env.PUBLIC_URL || '';
     console.log('Selected character:', selectedCharacter);
     if (selectedCharacter && characters.length > 0) {
       const character = characters.find(c => c.name === selectedCharacter);
       if (character) {
         console.log('Fetching character file:', character.file);
-        fetch(`${process.env.PUBLIC_URL}/${character.file}`)
+        fetch(`${publicUrl}/${character.file}`)
           .then(response => {
             if (!response.ok) {
               throw new Error(`HTTP error! status: ${response.status}`);
@@ -61,10 +63,12 @@ const JsonViewer = ({ selectedCharacter }) => {
     return <div>Loading...</div>;
   }
 
+  const publicUrl = process.env.PUBLIC_URL || '';
+
   return (
     <CharacterSheet 
       character={data} 
-      imagePath={`${process.env.PUBLIC_URL}/images/${data.Name.toLowerCase().replace(/\s+/g, '-')}.png`} 
+      imagePath={`${publicUrl}/images/${data.Name.toLowerCase().replace(/\s+/g, '-')}.webp`} 
     />
   );
 };
