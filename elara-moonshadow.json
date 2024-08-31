@@ -267,27 +267,30 @@
 			]
 		},
 		"1st Level": {
-			"number_of_spells": 4,
+			"number_of_spells": 5,
 			"spells": [
 				"Burning Hands",
-				"Used",
-				"Used",
+				"Magic Missile",
+				"Mage Armor",
+				"Magic Missile",
 				"Identify"
 			]
 		},
 		"2nd Level": {
-			"number_of_spells": 3,
+			"number_of_spells": 4,
 			"spells": [
 				"Acid Arrow",
-				"Used",
-				"Web"
+				"Mirror Image",
+				"Web",
+				"Scorching Ray"
 			]
 		},
 		"3rd Level": {
-			"number_of_spells": 2,
+			"number_of_spells": 3,
 			"spells": [
 				"Lightning Bolt",
-				"Tiny Hut"
+				"Tiny Hut",
+				"Fireball"
 			]
 		}
 	},
