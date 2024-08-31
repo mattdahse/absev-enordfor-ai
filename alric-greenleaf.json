@@ -1,7 +1,7 @@
 {
 	"Name": "Alric Greenleaf",
 	"Class": "Ranger",
-	"Level": 4,
+	"Level": 5,
 	"Alignment": "Neutral Good",
 	"Race": "Half-Elf",
 	"Abilities": {
@@ -12,11 +12,11 @@
 		"Wisdom": 14,
 		"Charisma": 9
 	},
-	"HP": 35,
+	"HP": 47,
 	"AC": 17,
 	"Saves": {
-		"Fortitude": 6,
-		"Reflex": 7,
+		"Fortitude": 7,
+		"Reflex": 8,
 		"Willpower": 3
 	},
 	"Money": "296.29",
@@ -24,18 +24,18 @@
 	"Speed": "30 ft",
 	"Attacks": {
 		"Longbow": {
-			"Attack Bonus": "+7",
+			"Attack Bonus": "+8",
 			"Damage": "1d8",
 			"Special": "Range 100 ft."
 		},
 		"Shortsword": {
-			"Attack Bonus": "+4",
+			"Attack Bonus": "+5",
 			"Damage": "1d6",
 			"Special": ""
 		}
 	},
 	"Special Abilities": {
-		"Favored Enemy (Monstrous Humanoids)": "+2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against monstrous humanoids. +2 bonus on weapon attack and damage rolls against monstrous humanoids.",
+		"Favored Enemyies (Monstrous Humanoids & Undead)": "+2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against monstrous humanoids. +2 bonus on weapon attack and damage rolls against monstrous humanoids.",
 		"Track": "+1 to Survival checks made to follow tracks",
 		"Wild Empathy": "Improve the attitude of an animal",
 		"Combat Style (Archery)": "Rapid Shot",
@@ -47,11 +47,12 @@
 		"Handle Animal": "+7",
 		"Heal": "+6",
 		"Knowledge (Nature)": "+10",
-		"Perception": "+16",
+		"Perception": "+18",
 		"Ride": "+10",
 		"Stealth": "+10",
 		"Survival": "+9",
-		"Swim": "+6"
+		"Swim": "+6",
+		"Knowledge (Geography)": "+9"
 	},
 	"Feats": [
 		"Weapon Focus (Longbow)",
@@ -87,36 +88,45 @@
 		"Elven Immunities": "Immune to magic sleep effects and a +2 racial saving throw bonus against enchantment spells and effects.",
 		"Multitalented": "Choose two favored classes at first level and gain +1 hit point or +1 skill rank whenever you take a level in either of those classes."
 	},
-	"Experience Points": "8705",
+	"Experience Points": "10000",
 	"Languages": [
 		"Common",
 		"Elven"
 	],
 	"Spellbook": {
 		"1st Level": [
-			{
-				"name": "Cure Light Wounds",
-				"url": "https://legacy.aonprd.com/coreRulebook/spells/cureLightWounds.html#cure-light-wounds"
-			},
-			{
-				"name": "Detect Poison",
-				"url": "https://legacy.aonprd.com/coreRulebook/spells/detectPoison.html#detect-poison"
-			},
-			{
-				"name": "Endure Elements",
-				"url": "https://legacy.aonprd.com/coreRulebook/spells/endureElements.html#endure-elements"
-			},
-			{
-				"name": "Speak with Animals",
-				"url": "https://legacy.aonprd.com/coreRulebook/spells/speakWithAnimals.html#speak-with-animals"
-			}
+			{ "name": "Alarm", "url": "https://legacy.aonprd.com/coreRulebook/spells/alarm.html#alarm" },
+			{ "name": "Animal Messenger", "url": "https://legacy.aonprd.com/coreRulebook/spells/animalMessenger.html#animal-messenger" },
+			{ "name": "Aspect of the Falcon", "url": "https://legacy.aonprd.com/advancedPlayersGuide/spells/aspectOfTheFalcon.html#aspect-of-the-falcon" },
+			{ "name": "Calm Animals", "url": "https://legacy.aonprd.com/coreRulebook/spells/calmAnimals.html#calm-animals" },
+			{ "name": "Charm Animal", "url": "https://legacy.aonprd.com/coreRulebook/spells/charmAnimal.html#charm-animal" },
+			{ "name": "Cure Light Wounds", "url": "https://legacy.aonprd.com/coreRulebook/spells/cureLightWounds.html#cure-light-wounds" },
+			{ "name": "Delay Poison", "url": "https://legacy.aonprd.com/coreRulebook/spells/delayPoison.html#delay-poison" },
+			{ "name": "Detect Animals or Plants", "url": "https://legacy.aonprd.com/coreRulebook/spells/detectAnimalsOrPlants.html#detect-animals-or-plants" },
+			{ "name": "Detect Poison", "url": "https://legacy.aonprd.com/coreRulebook/spells/detectPoison.html#detect-poison" },
+			{ "name": "Detect Snares and Pits", "url": "https://legacy.aonprd.com/coreRulebook/spells/detectSnaresAndPits.html#detect-snares-and-pits" },
+			{ "name": "Endure Elements", "url": "https://legacy.aonprd.com/coreRulebook/spells/endureElements.html#endure-elements" },
+			{ "name": "Entangle", "url": "https://legacy.aonprd.com/coreRulebook/spells/entangle.html#entangle" },
+			{ "name": "Gravity Bow", "url": "https://legacy.aonprd.com/advancedPlayersGuide/spells/gravityBow.html#gravity-bow" },
+			{ "name": "Hide from Animals", "url": "https://legacy.aonprd.com/coreRulebook/spells/hideFromAnimals.html#hide-from-animals" },
+			{ "name": "Jump", "url": "https://legacy.aonprd.com/coreRulebook/spells/jump.html#jump" },
+			{ "name": "Keen Senses", "url": "https://legacy.aonprd.com/advancedPlayersGuide/spells/keenSenses.html#keen-senses" },
+			{ "name": "Longstrider", "url": "https://legacy.aonprd.com/coreRulebook/spells/longstrider.html#longstrider" },
+			{ "name": "Magic Fang", "url": "https://legacy.aonprd.com/coreRulebook/spells/magicFang.html#magic-fang" },
+			{ "name": "Pass without Trace", "url": "https://legacy.aonprd.com/coreRulebook/spells/passWithoutTrace.html#pass-without-trace" },
+			{ "name": "Read Magic", "url": "https://legacy.aonprd.com/coreRulebook/spells/readMagic.html#read-magic" },
+			{ "name": "Resist Energy", "url": "https://legacy.aonprd.com/coreRulebook/spells/resistEnergy.html#resist-energy" },
+			{ "name": "Speak with Animals", "url": "https://legacy.aonprd.com/coreRulebook/spells/speakWithAnimals.html#speak-with-animals" },
+			{ "name": "Summon Nature's Ally I", "url": "https://legacy.aonprd.com/coreRulebook/spells/summonNatureSAlly.html#summon-nature-s-ally-i" }
+		
 		]
 	},
 	"Memorized": {
 		"1st Level": {
-			"number_of_spells": 1,
+			"number_of_spells": 2,
 			"spells": [
-				"Cure Light Wounds"
+				"Cure Light Wounds",
+				"Gravity Bow"
 			]
 		}
 	},
