@@ -257,6 +257,10 @@
 			{
 				"name": "Dispel Magic",
 				"url": "https://legacy.aonprd.com/coreRulebook/spells/dispelMagic.html#dispel-magic"
+			},
+			{
+				"name": "Fireball",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/fireBall.html"
 			}
 		]
 	},
