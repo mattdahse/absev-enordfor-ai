@@ -92,5 +92,6 @@
 		"Common",
 		"Goblin",
 		"Elven"
-	]
+	],
+	"currentHP": "42"
 }

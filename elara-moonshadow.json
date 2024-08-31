@@ -1,18 +1,18 @@
 {
 	"Name": "Elara Moonshadow",
 	"Class": "Wizard",
-	"Level": 4,
+	"Level": 5,
 	"Alignment": "Lawful Neutral",
 	"Race": "Elf",
 	"Abilities": {
 		"Strength": 10,
 		"Dexterity": 17,
-		"Constitution": 12,
+		"Constitution": 14,
 		"Intelligence": 18,
 		"Wisdom": 14,
 		"Charisma": 12
 	},
-	"HP": 32,
+	"HP": 40,
 	"AC": 14,
 	"Saves": {
 		"Fortitude": 3,
@@ -58,15 +58,15 @@
 		"Evocation School": "Intense Spells +1 damage"
 	},
 	"Skills": {
-		"Knowledge (Arcana)": "+10",
+		"Knowledge (Arcana)": "+11",
 		"Knowledge (History)": "+10",
-		"Knowledge (Planes)": "+9",
+		"Knowledge (Planes)": "+10",
 		"Linguistics": "+8",
-		"Perception": "+7",
-		"Spellcraft": "+10",
+		"Perception": "+8",
+		"Spellcraft": "+11",
 		"Spellcraft (to identify magic item properties)": "+12",
-		"Stealth": "+2",
-		"Survival": "+2"
+		"Stealth": "+3",
+		"Survival": "+3"
 	},
 	"Feats": [
 		"Arcane Bond",
@@ -74,7 +74,8 @@
 		"Cantrips",
 		"Scribe Scroll",
 		"Dodge (+1 AC based on Dexterity)",
-		"Toughness (+1 HP per Level)"
+		"Toughness (+1 HP per Level)",
+		"Craft Wonderous Item"
 	],
 	"Equipment": {
 		"Spellbook": "Contains various spells",
@@ -243,6 +244,16 @@
 				"name": "Acid Arrow",
 				"url": "https://legacy.aonprd.com/coreRulebook/spells/acidArrow.html#acid-arrow"
 			}
+		],
+		"3rd Level" : [
+			{
+				"name": "Lightning Bolt",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/lightningBolt.html#lightning-bolt"
+			},
+			{
+				"name": "Tiny Hut",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/tinyHut.html#tiny-hut"
+			}
 		]
 	},
 	"Memorized": {
@@ -271,7 +282,14 @@
 				"Used",
 				"Web"
 			]
+		},
+		"3rd Level": {
+			"number_of_spells": 2,
+			"spells": [
+				"Lightning Bolt",
+				"Tiny Hut"
+			]
 		}
 	},
-	"currentHP": "32"
+	"currentHP": "40"
 }
