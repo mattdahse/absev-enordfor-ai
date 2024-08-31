@@ -24,7 +24,7 @@
 	"Speed": "30 ft",
 	"Attacks": {
 		"Longbow": {
-			"Attack Bonus": "+8",
+			"Attack Bonus": "+10",
 			"Damage": "1d8",
 			"Special": "Range 100 ft."
 		},
@@ -62,7 +62,7 @@
 		"Precise Shot"
 	],
 	"Equipment": {
-		"Longbow": "Attack Bonus +7, Damage 1d8, Range 100 ft.",
+		"Longbow": "Attack Bonus +10, Damage 1d8, Range 100 ft.",
 		"Quiver of Arrows (20)": "20 arrows for use with the longbow",
 		"Shortsword": "Attack Bonus +4, Damage 1d6",
 		"Studded Leather Armor": "Provides an AC bonus of +3",
