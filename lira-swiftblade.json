@@ -52,7 +52,7 @@
 		"Bluff": "+11",
 		"Climb": "+9",
 		"Disable Device": "+13",
-		"Perception": "+9",
+		"Perception": "+9 (+11 when looking for traps)",
 		"Sleight of Hand": "+12",
 		"Stealth": "+12",
 		"Knowledge Local": "+10",
@@ -83,7 +83,8 @@
 		"Dagger +1 keen": "1d4+1 damage, with a crit threat range of 17-20/x2",
 		"amulet of natural armor +1": "+1 AC natural armor",
 		"gemstone": "50 gp value",
-		"cloak of invisibility": "activate as a standard action, causes wearer to become invisible as the spell."
+		"cloak of invisibility": "activate as a standard action, causes wearer to become invisible as the spell.",
+		"Silver dagger": "1d4"
 	},
 	"Notes": {
 	},
@@ -93,5 +94,5 @@
 		"Goblin",
 		"Elven"
 	],
-	"currentHP": "42"
+	"currentHP": "40"
 }

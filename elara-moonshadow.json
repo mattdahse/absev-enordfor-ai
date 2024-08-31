@@ -15,7 +15,7 @@
 	"HP": 40,
 	"AC": 14,
 	"Saves": {
-		"Fortitude": 3,
+		"Fortitude": 4,
 		"Reflex": 5,
 		"Willpower": 7
 	},
@@ -79,7 +79,7 @@
 	],
 	"Equipment": {
 		"Spellbook": "Contains various spells",
-		"Backpack": "Bedroll, Winter Blanket, Elven Rations x5, Trail Rations x7, Silk Rope 50'",
+		"Backpack": "Bedroll, Winter Blanket, Elven Rations x5, Trail Rations x7, Silk Rope 50', pouch of infernal dust",
 		"Spell Component Pouch": "Contains Spell Components",
 		"Ring": "Arcane Bond",
 		"Traveler's Outfit": "Traveling Clothes",
@@ -89,7 +89,7 @@
 		"Long Sword": "1D8 Damage",
 		"Long Bow": "1D8 Damage",
 		"Map Case": "Bandit Map of Hideout.\nBandit Documents and Maps.\nBandit Map Fragment found in Monastary Main Temple.",
-		"Scroll Case": "Dispel Magic\nIdentify\nInvisibility\nFireball x2",
+		"Scroll Case": "Identify\nInvisibility\nFireball x2",
 		"Small Tent": "Keeps you Dry - on Pack Mule",
 		"Water Skin": "Thirsty! x2",
 		"Cloak of Resistance +1": "+1 to all saves",
@@ -98,7 +98,7 @@
 		"Silver Blade of the Ancients": "Longsword +2, 1/day detects hidden or invisible objects and creatures within a 30 foot radius. Special Material: Silver",
 		"Ring of Protection +1": "Provides +1 to AC (Deflection) ",
 		"Amulet of Lesser Health": "Provides +2 Constitution",
-		"Party Treasure": "65.5 GP",
+		"Party Treasure": "90.5 GP, pouch of gemstones (250 GP)",
 		"Varik's Journal": "Notes about Monastary and future raids"
 	},
 	"Notes": {
@@ -108,7 +108,7 @@
 		"Silver Blade of the Ancients": "1/day detects hidden or invisible objects and creatures within a 30 foot radius.\nUsed = 1",
 		"Ornate Silver Pendant and Set of Old Keys (Monastary Dormitory)": ""
 	},
-	"Experience Points": "10000",
+	"Experience Points": "10300",
 	"Languages": [
 		"Common",
 		"Draconic",
@@ -296,7 +296,7 @@
 		"3rd Level": {
 			"number_of_spells": 3,
 			"spells": [
-				"Lightning Bolt",
+				"Used",
 				"Tiny Hut",
 				"Fireball"
 			]
