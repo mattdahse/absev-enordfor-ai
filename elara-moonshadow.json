@@ -253,6 +253,10 @@
 			{
 				"name": "Tiny Hut",
 				"url": "https://legacy.aonprd.com/coreRulebook/spells/tinyHut.html#tiny-hut"
+			},
+			{
+				"name": "Dispel Magic",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/dispelMagic.html#dispel-magic"
 			}
 		]
 	},
