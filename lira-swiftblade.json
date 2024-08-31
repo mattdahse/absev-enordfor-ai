@@ -1,7 +1,7 @@
 {
 	"Name": "Lira Swiftblade",
 	"Class": "Rogue",
-	"Level": 4,
+	"Level": 5,
 	"Alignment": "Chaotic Good",
 	"Race": "Human",
 	"Abilities": {
@@ -17,7 +17,7 @@
 		"Fortitude": 4,
 		"Willpower": 2
 	},
-	"HP": 32,
+	"HP": 42,
 	"AC": 18,
 	"Money": "348.25",
 	"Initiative": "+8",
@@ -40,7 +40,7 @@
 		}
 	},
 	"Special Abilities": {
-		"Sneak Attack": "+2d6 damage",
+		"Sneak Attack": "+3d6 damage",
 		"Trapfinding": "+1 to find or disable traps",
 		"Trap Sense": "+1 to reflex save or AC vs traps",
 		"Evasion": "No damage on successful Reflex save",
@@ -48,25 +48,26 @@
 		"Combat Trick": "new feat - Mobility"
 	},
 	"Skills": {
-		"Acrobatics": "+11",
-		"Bluff": "+10",
-		"Climb": "8",
-		"Disable Device": "+12",
-		"Perception": "+8",
-		"Sleight of Hand": "+11",
-		"Stealth": "+11",
-		"Knowledge Local": "+9",
-		"Sense Motive": "+7",
-		"Use Magic Device": "+10",
-		"Diplomacy": "+10",
-		"Escape Artist": "+11"
+		"Acrobatics": "+12",
+		"Bluff": "+11",
+		"Climb": "+9",
+		"Disable Device": "+13",
+		"Perception": "+9",
+		"Sleight of Hand": "+12",
+		"Stealth": "+12",
+		"Knowledge Local": "+10",
+		"Sense Motive": "+8",
+		"Use Magic Device": "+11",
+		"Diplomacy": "+11",
+		"Escape Artist": "+12"
 	},
 	"Feats": [
 		"Weapon Finesse",
 		"Dodge",
 		"Improved Initiative",
 		"Combat Expertise",
-		"Mobility"
+		"Mobility",
+		"Improved Feint"
 	],
 	"Equipment": {
 		"Leather Armor": "AC +2",
@@ -86,7 +87,7 @@
 	},
 	"Notes": {
 	},
-	"Experience Points": 7405,
+	"Experience Points": 10000,
 	"Languages": [
 		"Common",
 		"Goblin",
