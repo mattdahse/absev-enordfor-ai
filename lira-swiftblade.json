@@ -19,7 +19,7 @@
 	},
 	"HP": 42,
 	"AC": 18,
-	"Money": "348.25",
+	"Money": "548.25",
 	"Initiative": "+8",
 	"Speed": "30 ft",
 	"Attacks": {
@@ -52,7 +52,7 @@
 		"Bluff": "+11",
 		"Climb": "+9",
 		"Disable Device": "+13",
-		"Perception": "+9 (+11 when looking for traps)",
+		"Perception": "+9",
 		"Sleight of Hand": "+12",
 		"Stealth": "+12",
 		"Knowledge Local": "+10",
@@ -84,15 +84,15 @@
 		"amulet of natural armor +1": "+1 AC natural armor",
 		"gemstone": "50 gp value",
 		"cloak of invisibility": "activate as a standard action, causes wearer to become invisible as the spell.",
-		"Silver dagger": "1d4"
+		"Silver dagger": "useful to bypass damage reduction"
 	},
 	"Notes": {
 	},
-	"Experience Points": 10000,
+	"Experience Points": "16800",
 	"Languages": [
 		"Common",
 		"Goblin",
 		"Elven"
 	],
-	"currentHP": "40"
+	"currentHP": "38"
 }

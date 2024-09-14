@@ -19,7 +19,7 @@
 		"Reflex": 5,
 		"Willpower": 7
 	},
-	"Money": "378.79",
+	"Money": "568.79",
 	"Initiative": "+3",
 	"Speed": "30 ft",
 	"Attacks": {
@@ -89,26 +89,30 @@
 		"Long Sword": "1D8 Damage",
 		"Long Bow": "1D8 Damage",
 		"Map Case": "Bandit Map of Hideout.\nBandit Documents and Maps.\nBandit Map Fragment found in Monastary Main Temple.",
-		"Scroll Case": "Identify\nInvisibility\nFireball x2",
+		"Scroll Case": "Identify\nInvisibility\nFireball \nIce Storm",
 		"Small Tent": "Keeps you Dry - on Pack Mule",
 		"Water Skin": "Thirsty! x2",
 		"Cloak of Resistance +1": "+1 to all saves",
 		"Belt Pouch 1": "Flint & Steel",
 		"Belt Pouch 2": "Potion of CLW x2",
-		"Silver Blade of the Ancients": "Longsword +2, 1/day detects hidden or invisible objects and creatures within a 30 foot radius. Special Material: Silver",
 		"Ring of Protection +1": "Provides +1 to AC (Deflection) ",
 		"Amulet of Lesser Health": "Provides +2 Constitution",
-		"Party Treasure": "90.5 GP, pouch of gemstones (250 GP)",
-		"Varik's Journal": "Notes about Monastary and future raids"
+		"Party Treasure": "90.5 GP, pouch of gemstones (250 GP). +1 Chain whip Entangle (DC 15 1/Day). Fire Opal carved in the shape of bell (500 GP). Icy Sapphire (1200 GP).  Frozen Silver Circlet (500 GP). Tiny bell charms on circlet.",
+		"Varik's Journal": "Notes about Monastary and future raids",
+		"Wand of Scorching Ray": "Scorching Ray (Lv. 3). 1 Ray.\nYou blast your enemies with a searing beam of fire. You may fire one ray. Each ray requires a ranged touch attack to hit and deals 4d6 points of fire damage. The rays may be fired at the same or different targets, but all rays must be aimed at targets within 30 feet of each other and fired simultaneously.\n\nUSED (12): 3"
 	},
 	"Notes": {
 		"Immunities": "Sleep, +2 bonus to enchantment",
 		"Weapon Proficiencies": "Club, Heavy Crossbow, Light Crossbow, Dagger, Grapple, Longbow, Longsword, Quarterstaff, Rapier, Shortbow, Rays Spells, Touch Spells, Splash Weapons, Unarmed Strike",
-		"Force Missile: 1D4+2": "7xDay: Uses = ",
-		"Silver Blade of the Ancients": "1/day detects hidden or invisible objects and creatures within a 30 foot radius.\nUsed = 1",
-		"Ornate Silver Pendant and Set of Old Keys (Monastary Dormitory)": ""
+		"Force Missile: 1D4+2": "7xDay: Uses = 4",
+		"Ornate Silver Pendant and Set of Old Keys (Monastary Dormitory)": "",
+		"Intense Spell": "Intense Spells (Su): Whenever you cast an evocation spell that deals hit point damage, add 1/2 your wizard level to the damage (minimum +1). This bonus only applies once to a spell, not once per missile or ray, and cannot be split between multiple missiles or rays. This bonus damage is not increased by Empower Spell or similar effects. This damage is of the same type as the spell. At 20th level, whenever you cast an evocation spell you can roll twice to penetrate a creature's spell resistance and take the better result.",
+		"Force Missile": "Force Missile (Sp): As a standard action you can unleash a force missile that automatically strikes a foe, as magic missile. The force missile deals 1d4 points of damage plus the damage from your intense spells evocation power. This is a force effect. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+		"Elemental Wall": "Elemental Wall (Sp): At 8th level, you can create a wall of energy that lasts for a number of rounds per day equal to your wizard level. These rounds do not need to be consecutive. This wall deals acid, cold, electricity, or fire damage, determined when you create it. The elemental wall otherwise functions like wall of fire.",
+		"Arcane Bond": "A bonded object can be used once per day to cast any one spell that the wizard has in his spellbook and is capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by the wizard, including casting time, duration, and other effects dependent on the wizard's level. This spell cannot be modified by metamagic feats or other abilities. The bonded object cannot be used to cast spells from the wizard's opposition schools (see arcane school).\n\nUSED: Y",
+		"Trinkets": "Several rooms with tiny bells trinkets."
 	},
-	"Experience Points": "10300",
+	"Experience Points": "16800",
 	"Languages": [
 		"Common",
 		"Draconic",
@@ -245,7 +249,7 @@
 				"url": "https://legacy.aonprd.com/coreRulebook/spells/acidArrow.html#acid-arrow"
 			}
 		],
-		"3rd Level" : [
+		"3rd Level": [
 			{
 				"name": "Lightning Bolt",
 				"url": "https://legacy.aonprd.com/coreRulebook/spells/lightningBolt.html#lightning-bolt"
@@ -277,30 +281,30 @@
 		"1st Level": {
 			"number_of_spells": 5,
 			"spells": [
-				"Burning Hands",
+				"Shield",
+				"Used",
+				"Used",
 				"Magic Missile",
-				"Mage Armor",
-				"Magic Missile",
-				"Identify"
+				"Magic Missile"
 			]
 		},
 		"2nd Level": {
 			"number_of_spells": 4,
 			"spells": [
-				"Acid Arrow",
+				"Used",
 				"Mirror Image",
 				"Web",
-				"Scorching Ray"
+				"Used"
 			]
 		},
 		"3rd Level": {
 			"number_of_spells": 3,
 			"spells": [
-				"Used",
+				"Lightning Bolt",
 				"Tiny Hut",
-				"Fireball"
+				"Dispel Magic"
 			]
 		}
 	},
-	"currentHP": "40"
+	"currentHP": "40 - 2"
 }

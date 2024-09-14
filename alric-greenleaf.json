@@ -19,7 +19,7 @@
 		"Reflex": 8,
 		"Willpower": 3
 	},
-	"Money": "296.29",
+	"Money": "486.29",
 	"Initiative": "+4",
 	"Speed": "30 ft",
 	"Attacks": {
@@ -77,48 +77,115 @@
 		"Ring of Protection +1": "+1 to AC",
 		"Amulet of Natural Armor +1": "+1 to natural armor AC",
 		"Potion of Cure Light Wounds": "Heals 1d8+1 hit points",
-		"Potion of Cure Moderate Wounds": "Heals 2d8+3 hit points",
 		"Potion of Invisibility": "Grants invisibility for 3 minutes",
 		"Scroll of Cure Light Wounds": "Casts Cure Light Wounds",
 		"Scroll of Protection from Evil": "Casts Protection from Evil",
-		"Longsword": "1D8 damage"
+		"Silver Blade of the Ancients": "+2 Damage. Magic Item. Silver Item.\nActive: Detect Hidden/Invisible Objects and creatures (30 ft range) (1 day CD)"
 	},
 	"Notes": {
 		"Low-Light Vision": "Half-elves can see twice as far as humans in conditions of dim light.",
 		"Elven Immunities": "Immune to magic sleep effects and a +2 racial saving throw bonus against enchantment spells and effects.",
 		"Multitalented": "Choose two favored classes at first level and gain +1 hit point or +1 skill rank whenever you take a level in either of those classes."
 	},
-	"Experience Points": "10000",
+	"Experience Points": "16800",
 	"Languages": [
 		"Common",
 		"Elven"
 	],
 	"Spellbook": {
 		"1st Level": [
-			{ "name": "Alarm", "url": "https://legacy.aonprd.com/coreRulebook/spells/alarm.html#alarm" },
-			{ "name": "Animal Messenger", "url": "https://legacy.aonprd.com/coreRulebook/spells/animalMessenger.html#animal-messenger" },
-			{ "name": "Aspect of the Falcon", "url": "https://legacy.aonprd.com/advancedPlayersGuide/spells/aspectOfTheFalcon.html#aspect-of-the-falcon" },
-			{ "name": "Calm Animals", "url": "https://legacy.aonprd.com/coreRulebook/spells/calmAnimals.html#calm-animals" },
-			{ "name": "Charm Animal", "url": "https://legacy.aonprd.com/coreRulebook/spells/charmAnimal.html#charm-animal" },
-			{ "name": "Cure Light Wounds", "url": "https://legacy.aonprd.com/coreRulebook/spells/cureLightWounds.html#cure-light-wounds" },
-			{ "name": "Delay Poison", "url": "https://legacy.aonprd.com/coreRulebook/spells/delayPoison.html#delay-poison" },
-			{ "name": "Detect Animals or Plants", "url": "https://legacy.aonprd.com/coreRulebook/spells/detectAnimalsOrPlants.html#detect-animals-or-plants" },
-			{ "name": "Detect Poison", "url": "https://legacy.aonprd.com/coreRulebook/spells/detectPoison.html#detect-poison" },
-			{ "name": "Detect Snares and Pits", "url": "https://legacy.aonprd.com/coreRulebook/spells/detectSnaresAndPits.html#detect-snares-and-pits" },
-			{ "name": "Endure Elements", "url": "https://legacy.aonprd.com/coreRulebook/spells/endureElements.html#endure-elements" },
-			{ "name": "Entangle", "url": "https://legacy.aonprd.com/coreRulebook/spells/entangle.html#entangle" },
-			{ "name": "Gravity Bow", "url": "https://legacy.aonprd.com/advancedPlayersGuide/spells/gravityBow.html#gravity-bow" },
-			{ "name": "Hide from Animals", "url": "https://legacy.aonprd.com/coreRulebook/spells/hideFromAnimals.html#hide-from-animals" },
-			{ "name": "Jump", "url": "https://legacy.aonprd.com/coreRulebook/spells/jump.html#jump" },
-			{ "name": "Keen Senses", "url": "https://legacy.aonprd.com/advancedPlayersGuide/spells/keenSenses.html#keen-senses" },
-			{ "name": "Longstrider", "url": "https://legacy.aonprd.com/coreRulebook/spells/longstrider.html#longstrider" },
-			{ "name": "Magic Fang", "url": "https://legacy.aonprd.com/coreRulebook/spells/magicFang.html#magic-fang" },
-			{ "name": "Pass without Trace", "url": "https://legacy.aonprd.com/coreRulebook/spells/passWithoutTrace.html#pass-without-trace" },
-			{ "name": "Read Magic", "url": "https://legacy.aonprd.com/coreRulebook/spells/readMagic.html#read-magic" },
-			{ "name": "Resist Energy", "url": "https://legacy.aonprd.com/coreRulebook/spells/resistEnergy.html#resist-energy" },
-			{ "name": "Speak with Animals", "url": "https://legacy.aonprd.com/coreRulebook/spells/speakWithAnimals.html#speak-with-animals" },
-			{ "name": "Summon Nature's Ally I", "url": "https://legacy.aonprd.com/coreRulebook/spells/summonNatureSAlly.html#summon-nature-s-ally-i" }
-		
+			{
+				"name": "Alarm",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/alarm.html#alarm"
+			},
+			{
+				"name": "Animal Messenger",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/animalMessenger.html#animal-messenger"
+			},
+			{
+				"name": "Aspect of the Falcon",
+				"url": "https://legacy.aonprd.com/advancedPlayersGuide/spells/aspectOfTheFalcon.html#aspect-of-the-falcon"
+			},
+			{
+				"name": "Calm Animals",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/calmAnimals.html#calm-animals"
+			},
+			{
+				"name": "Charm Animal",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/charmAnimal.html#charm-animal"
+			},
+			{
+				"name": "Cure Light Wounds",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/cureLightWounds.html#cure-light-wounds"
+			},
+			{
+				"name": "Delay Poison",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/delayPoison.html#delay-poison"
+			},
+			{
+				"name": "Detect Animals or Plants",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/detectAnimalsOrPlants.html#detect-animals-or-plants"
+			},
+			{
+				"name": "Detect Poison",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/detectPoison.html#detect-poison"
+			},
+			{
+				"name": "Detect Snares and Pits",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/detectSnaresAndPits.html#detect-snares-and-pits"
+			},
+			{
+				"name": "Endure Elements",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/endureElements.html#endure-elements"
+			},
+			{
+				"name": "Entangle",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/entangle.html#entangle"
+			},
+			{
+				"name": "Gravity Bow",
+				"url": "https://legacy.aonprd.com/advancedPlayersGuide/spells/gravityBow.html#gravity-bow"
+			},
+			{
+				"name": "Hide from Animals",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/hideFromAnimals.html#hide-from-animals"
+			},
+			{
+				"name": "Jump",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/jump.html#jump"
+			},
+			{
+				"name": "Keen Senses",
+				"url": "https://legacy.aonprd.com/advancedPlayersGuide/spells/keenSenses.html#keen-senses"
+			},
+			{
+				"name": "Longstrider",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/longstrider.html#longstrider"
+			},
+			{
+				"name": "Magic Fang",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/magicFang.html#magic-fang"
+			},
+			{
+				"name": "Pass without Trace",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/passWithoutTrace.html#pass-without-trace"
+			},
+			{
+				"name": "Read Magic",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/readMagic.html#read-magic"
+			},
+			{
+				"name": "Resist Energy",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/resistEnergy.html#resist-energy"
+			},
+			{
+				"name": "Speak with Animals",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/speakWithAnimals.html#speak-with-animals"
+			},
+			{
+				"name": "Summon Nature's Ally I",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/summonNatureSAlly.html#summon-nature-s-ally-i"
+			}
 		]
 	},
 	"Memorized": {
