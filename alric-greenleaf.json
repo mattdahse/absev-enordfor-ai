@@ -1,7 +1,7 @@
 {
 	"Name": "Alric Greenleaf",
 	"Class": "Ranger",
-	"Level": 5,
+	"Level": 6,
 	"Alignment": "Neutral Good",
 	"Race": "Half-Elf",
 	"Abilities": {
@@ -12,30 +12,35 @@
 		"Wisdom": 14,
 		"Charisma": 9
 	},
-	"HP": 47,
+	"HP": 64,
 	"AC": 19,
 	"Saves": {
-		"Fortitude": 7,
-		"Reflex": 8,
-		"Willpower": 3
+		"Fortitude": 8,
+		"Reflex": 10,
+		"Willpower": 5
 	},
 	"Money": "486.29",
 	"Initiative": "+4",
 	"Speed": "30 ft",
 	"Attacks": {
 		"Longbow": {
-			"Attack Bonus": "+10",
+			"Attack Bonus": "+11/+6",
 			"Damage": "1d8",
 			"Special": "Range 100 ft."
 		},
+		"Silver Sword of the Ancients +2" : {
+			"Attack Bonus": "+10/+5",
+			"Damage" : "1d8 + 4",
+			"Special": "Silver - "
+		},
 		"Shortsword": {
-			"Attack Bonus": "+5",
-			"Damage": "1d6",
+			"Attack Bonus": "+8/+3",
+			"Damage": "1d6 + 2",
 			"Special": ""
 		}
 	},
 	"Special Abilities": {
-		"Favored Enemyies (Monstrous Humanoids & Undead)": "+2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against monstrous humanoids. +2 bonus on weapon attack and damage rolls against monstrous humanoids.",
+		"Favored Enemyies (Monstrous Humanoids & Undead & Demons)": "+2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against monstrous humanoids. +2 bonus on weapon attack and damage rolls against monstrous humanoids.",
 		"Track": "+1 to Survival checks made to follow tracks",
 		"Wild Empathy": "Improve the attitude of an animal",
 		"Combat Style (Archery)": "Rapid Shot",
@@ -44,13 +49,13 @@
 	},
 	"Skills": {
 		"Climb": "+9",
-		"Handle Animal": "+7",
-		"Heal": "+6",
+		"Handle Animal": "+8",
+		"Heal": "+8",
 		"Knowledge (Nature)": "+10",
-		"Perception": "+18",
+		"Perception": "+19",
 		"Ride": "+10",
-		"Stealth": "+10",
-		"Survival": "+9",
+		"Stealth": "+11",
+		"Survival": "+11",
 		"Swim": "+6",
 		"Knowledge (Geography)": "+9"
 	},
@@ -59,7 +64,8 @@
 		"Skill Focus (Perception)",
 		"Point-Blank Shot",
 		"Rapid Shot",
-		"Precise Shot"
+		"Precise Shot",
+		"Manyshot"
 	],
 	"Equipment": {
 		"Longbow": "Attack Bonus +10, Damage 1d8, Range 100 ft.",

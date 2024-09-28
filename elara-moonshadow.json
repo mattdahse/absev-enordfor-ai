@@ -1,7 +1,7 @@
 {
 	"Name": "Elara Moonshadow",
 	"Class": "Wizard",
-	"Level": 5,
+	"Level": 6,
 	"Alignment": "Lawful Neutral",
 	"Race": "Elf",
 	"Abilities": {
@@ -12,29 +12,29 @@
 		"Wisdom": 14,
 		"Charisma": 12
 	},
-	"HP": 40,
+	"HP": 55,
 	"AC": 14,
 	"Saves": {
-		"Fortitude": 4,
-		"Reflex": 5,
-		"Willpower": 7
+		"Fortitude": 5,
+		"Reflex": 6,
+		"Willpower": 8
 	},
 	"Money": "568.79",
 	"Initiative": "+3",
 	"Speed": "30 ft",
 	"Attacks": {
 		"Longsword": {
-			"Attack Bonus": "+2",
+			"Attack Bonus": "+3",
 			"Damage": "1d8",
 			"Special": ""
 		},
 		"Longbow": {
-			"Attack Bonus": "+5",
+			"Attack Bonus": "+6",
 			"Damage": "1d8",
 			"Special": "Range 60"
 		},
 		"Quarterstaff": {
-			"Attack Bonus": "+2",
+			"Attack Bonus": "+3",
 			"Damage": "1d6",
 			"Special": ""
 		},
@@ -52,21 +52,25 @@
 			"Attack Bonus": "NA",
 			"Damage": "1d4+1",
 			"Special": "Magic, Force, 7x per day"
+		},
+		"Ranged" : {
+			"Attack Bonus": "+6",
+			"Damage": "varies by spell"
 		}
 	},
 	"Special Abilities": {
 		"Evocation School": "Intense Spells +1 damage"
 	},
 	"Skills": {
-		"Knowledge (Arcana)": "+11",
+		"Knowledge (Arcana)": "+12",
 		"Knowledge (History)": "+10",
-		"Knowledge (Planes)": "+10",
+		"Knowledge (Planes)": "+11",
 		"Linguistics": "+8",
-		"Perception": "+8",
-		"Spellcraft": "+11",
-		"Spellcraft (to identify magic item properties)": "+12",
-		"Stealth": "+3",
-		"Survival": "+3"
+		"Perception": "+9",
+		"Spellcraft": "+12",
+		"Spellcraft (to identify magic item properties)": "+13",
+		"Stealth": "+4",
+		"Survival": "+4"
 	},
 	"Feats": [
 		"Arcane Bond",
@@ -265,6 +269,14 @@
 			{
 				"name": "Fireball",
 				"url": "https://legacy.aonprd.com/coreRulebook/spells/fireBall.html"
+			},
+			{
+				"name": "Fly",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/fly.html"
+			},
+			{
+				"name": "Haste",
+				"url": "https://legacy.aonprd.com/coreRulebook/spells/haste.html"
 			}
 		]
 	},
@@ -289,22 +301,24 @@
 			]
 		},
 		"2nd Level": {
-			"number_of_spells": 4,
+			"number_of_spells": 5,
 			"spells": [
 				"Used",
 				"Mirror Image",
 				"Web",
+				"Used",
 				"Used"
 			]
 		},
 		"3rd Level": {
-			"number_of_spells": 3,
+			"number_of_spells": 4,
 			"spells": [
 				"Lightning Bolt",
 				"Tiny Hut",
-				"Dispel Magic"
+				"Dispel Magic",
+				"Used"
 			]
 		}
 	},
-	"currentHP": "40 - 2"
+	"currentHP": "55"
 }
