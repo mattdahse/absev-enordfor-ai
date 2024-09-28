@@ -1,7 +1,7 @@
 {
 	"Name": "Mei Lin",
 	"Class": "Monk",
-	"Level": 5,
+	"Level": 6,
 	"Alignment": "Lawful Neutral",
 	"Race": "Human",
 	"Abilities": {
@@ -13,56 +13,52 @@
 		"Charisma": 10
 	},
 	"Saves": {
-		"Reflex": 11,
-		"Fortitude": 9,
-		"Willpower": 10
+		"Reflex": 12,
+		"Fortitude": 10,
+		"Willpower": 11
 	},
-	"HP": 38,
+	"HP": 48,
 	"AC": 21,
-	"Money": "326.18",
+	"Money": "516.18",
 	"Initiative": "+8",
 	"Speed": "40 ft",
 	"Attacks": {
 		"Unarmed Strike": {
-			"Attack Bonus": "+10",
-			"Damage": "1d10+2",
-			"Special": "Flurry of Blows, Stunning Fist"
-		},
-		"Nunchaku": {
-			"Attack Bonus": "+9",
+			"Attack Bonus": "+13",
 			"Damage": "1d10+2",
 			"Special": "Flurry of Blows, Stunning Fist"
 		}
 	},
 	"Special Abilities": {
 		"Flurry of Blows": {
-			"Attack Bonus": "+7/+7",
+			"Attack Bonus": "+12/+12/+7",
 			"Damage": "1d10+2"
 		},
 		"Stunning Fist": {
-			"Uses per Day": 3,
-			"DC": 14
+			"Uses per Day": 6,
+			"DC": 16
 		},
 		"Ki Strike": "Unarmed attacks treated as magical weapons",
 		"Purity of Body (Ex)": "Immunity to all diseases, including supernatural and magical diseases.",
 		"Evasion": "No damage on successful Reflex save",
 		"Fast Movement": "+10 ft speed",
-		"Ki Pool": "8"
+		"Slow Fall": "If within reach of a wall, remove first 20 feet of fall damage",
+		"Ki Pool": "9",
+		"High Jump": "Add your level to all acrobatics checks when jumping"
 	},
 	"Skills": {
-		"Acrobatics": "+12",
+		"Acrobatics": "+14",
 		"Climb": "+6",
-		"Perception": "+8",
+		"Perception": "+10",
 		"Sense Motive": "+8",
-		"Stealth": "+12",
+		"Stealth": "+13",
 		"Knowledge, History": "+5",
 		"Knowledge, Religion": "+5",
-		"Escape Artist": "+10",
-		"Swim":"+8"
+		"Escape Artist": "+12",
+		"Swim": "+8"	
 	},
 	"Feats": [
-		"Improved Unarmed Strike",
-		"Stunning Fist (4/day) - Fort DC 14",
+		"Improved Unarmed Strike (bonus)",
 		"Combat Reflexes (up to 5 attacks of opportunity)",
 		"Deflect Arrows",
 		"Fast Movement",
@@ -71,17 +67,16 @@
 		"Improved Initiative",
 		"Maneuver Training +1 to CMB",
 		"Still Mind (+2 bonus on saving for enchantment spells & effects)",
-		"Weapon Focus"
+		"Weapon Focus",
+		"Weapon Finesse"
 	],
 	"Equipment": {
-		"Monk's Robe": "AC +1",
+		"Monk's Robe": "AC +2",
 		"Amulet of Natural Armor +1": "AC +1",
 		"Cloak of Resistance +1": "+1 to all saves",
 		"Nunchaku": "1d6+2",
-		"Potion of Cure Serious Wounds": "Heals 3d8+5",
-		"Potion of Cure Moderate Wounds": "Heals 2d8+3",
 		"Shuriken": "1d2",
-		"Golden Chalice": "1/day: can cast augury, 3/day cast cure light wounds",
+		"Golden Chalice": "1/day: can cast augury, 3/day cast cure light wounds. ",
 		"Gemstones": "3 gems worth 50gp each",
 		"Ring of Protection +1": "+1 to AC and +1 to all saves",
 		"Necklace of Fireballs": "(type II) 3 beads remaining",
@@ -89,12 +84,14 @@
 	},
 	"Notes": {
 		"extra attack": "Cost: 1 Ki Point Effect: Mei Lin can make one additional attack at her highest attack bonus when using Flurry of Blows.",
-		"increased speed" : "Cost: 1 Ki Point, Effect: Mei Lin can increase her speed by 20 feet for 1 round.",
-		"bonus to AC": "Cost: 1 Ki Point, Effect: Mei Lin can gain a +4 dodge bonus to AC for 1 round. This is particularly useful for avoiding attacks in tight situations."
+		"increased speed": "Cost: 1 Ki Point, Effect: Mei Lin can increase her speed by 20 feet for 1 round.",
+		"bonus to AC": "Cost: 1 Ki Point, Effect: Mei Lin can gain a +4 dodge bonus to AC for 1 round. This is particularly useful for avoiding attacks in tight situations.",
+		"Monk Acrobatics": "Cost: 1 Ki Point, Effect: Add +20 to all acrobatics checks for 1 round",
+		"Current Ki": "9/9"
 	},
-	"Experience Points": "10000",
+	"Experience Points": "16800",
 	"Languages": [
 		"Common"
 	],
-	"currentHP": "38"
+	"currentHP": "48"
 }
