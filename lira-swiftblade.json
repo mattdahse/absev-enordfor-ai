@@ -1,7 +1,7 @@
 {
 	"Name": "Lira Swiftblade",
 	"Class": "Rogue",
-	"Level": 5,
+	"Level": 6,
 	"Alignment": "Chaotic Good",
 	"Race": "Human",
 	"Abilities": {
@@ -13,28 +13,28 @@
 		"Charisma": 16
 	},
 	"Saves": {
-		"Reflex": 9,
-		"Fortitude": 4,
-		"Willpower": 2
+		"Reflex": 10,
+		"Fortitude": 5,
+		"Willpower": 3
 	},
-	"HP": 42,
+	"HP": 52,
 	"AC": 18,
 	"Money": "548.25",
 	"Initiative": "+8",
 	"Speed": "30 ft",
 	"Attacks": {
 		"Rapier +1": {
-			"Attack Bonus": "+8",
+			"Attack Bonus": "+9",
 			"Damage": "1d6+2",
 			"Special": "Finesse"
 		},
 		"Masterwork Dagger": {
-			"Attack Bonus": "+8",
+			"Attack Bonus": "+9",
 			"Damage": "1d4+1",
 			"Special": "Finesse"
 		},
 		"Short Bow": {
-			"Attack Bonus": "+7",
+			"Attack Bonus": "+8",
 			"Damage": "1D6",
 			"Special": "Range 60"
 		}
@@ -42,24 +42,25 @@
 	"Special Abilities": {
 		"Sneak Attack": "+3d6 damage",
 		"Trapfinding": "+1 to find or disable traps",
-		"Trap Sense": "+1 to reflex save or AC vs traps",
+		"Trap Sense": "+2 to reflex save or AC vs traps",
 		"Evasion": "No damage on successful Reflex save",
 		"Uncanny Dodge": "Cannot be caught flat-footed",
-		"Combat Trick": "new feat - Mobility"
+		"Combat Trick": "new feat - Mobility",
+		"Trap Spotter": "Come within 10' of a trap, an automatic perception check is called"
 	},
 	"Skills": {
-		"Acrobatics": "+12",
-		"Bluff": "+11",
-		"Climb": "+9",
-		"Disable Device": "+13",
-		"Perception": "+9",
-		"Sleight of Hand": "+12",
-		"Stealth": "+12",
-		"Knowledge Local": "+10",
-		"Sense Motive": "+8",
-		"Use Magic Device": "+11",
-		"Diplomacy": "+11",
-		"Escape Artist": "+12"
+		"Acrobatics": "+13",
+		"Bluff": "+12",
+		"Climb": "+10",
+		"Disable Device": "+14",
+		"Perception": "+10",
+		"Sleight of Hand": "+13",
+		"Stealth": "+13",
+		"Knowledge Local": "+11",
+		"Sense Motive": "+9",
+		"Use Magic Device": "+12",
+		"Diplomacy": "+12",
+		"Escape Artist": "+13"
 	},
 	"Feats": [
 		"Weapon Finesse",
@@ -94,5 +95,5 @@
 		"Goblin",
 		"Elven"
 	],
-	"currentHP": "38"
+	"currentHP": "52"
 }
