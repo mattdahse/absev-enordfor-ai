@@ -19,7 +19,7 @@
 		"Reflex": 6,
 		"Willpower": 8
 	},
-	"Money": "568.79",
+	"Money": "655.60",
 	"Initiative": "+3",
 	"Speed": "30 ft",
 	"Attacks": {
@@ -53,7 +53,7 @@
 			"Damage": "1d4+1",
 			"Special": "Magic, Force, 7x per day"
 		},
-		"Ranged" : {
+		"Ranged": {
 			"Attack Bonus": "+6",
 			"Damage": "varies by spell"
 		}
@@ -87,23 +87,24 @@
 		"Spell Component Pouch": "Contains Spell Components",
 		"Ring": "Arcane Bond",
 		"Traveler's Outfit": "Traveling Clothes",
-		"Dagger": "Dagger",
+		"Dagger": "Dagger, Brace of Throwing Daggers 2 each Silver and Cold Iron",
 		"Dagger+1": "Magic +1 Dagger to Hit/Damage",
-		"Arrow": "x25",
+		"Arrow": "10x Cold Iron Arrows, 10x Silver Arrows",
 		"Long Sword": "1D8 Damage",
 		"Long Bow": "1D8 Damage",
 		"Map Case": "Bandit Map of Hideout.\nBandit Documents and Maps.\nBandit Map Fragment found in Monastary Main Temple.",
-		"Scroll Case": "Identify\nInvisibility\nFireball \nIce Storm",
+		"Scroll Case": "Identify\nInvisibility\nFireball \nIce Storm, \nSummon Monster I/II/III (1 each single)",
 		"Small Tent": "Keeps you Dry - on Pack Mule",
 		"Water Skin": "Thirsty! x2",
 		"Cloak of Resistance +1": "+1 to all saves",
 		"Belt Pouch 1": "Flint & Steel",
-		"Belt Pouch 2": "Potion of CLW x2",
+		"Belt Pouch 2": "Potion of CLW",
 		"Ring of Protection +1": "Provides +1 to AC (Deflection) ",
 		"Amulet of Lesser Health": "Provides +2 Constitution",
 		"Party Treasure": "90.5 GP, pouch of gemstones (250 GP). +1 Chain whip Entangle (DC 15 1/Day). Fire Opal carved in the shape of bell (500 GP). Icy Sapphire (1200 GP).  Frozen Silver Circlet (500 GP). Tiny bell charms on circlet.",
 		"Varik's Journal": "Notes about Monastary and future raids",
-		"Wand of Scorching Ray": "Scorching Ray (Lv. 3). 1 Ray.\nYou blast your enemies with a searing beam of fire. You may fire one ray. Each ray requires a ranged touch attack to hit and deals 4d6 points of fire damage. The rays may be fired at the same or different targets, but all rays must be aimed at targets within 30 feet of each other and fired simultaneously.\n\nUSED (12): 3"
+		"Wand of Scorching Ray": "Scorching Ray (Lv. 3). 1 Ray.\nYou blast your enemies with a searing beam of fire. You may fire one ray. Each ray requires a ranged touch attack to hit and deals 4d6 points of fire damage. The rays may be fired at the same or different targets, but all rays must be aimed at targets within 30 feet of each other and fired simultaneously.\n\nUSED (12): 3",
+		"Wand of Missile": "Magic Missile (3 missiles),\nCharges x5"
 	},
 	"Notes": {
 		"Immunities": "Sleep, +2 bonus to enchantment",
@@ -114,9 +115,10 @@
 		"Force Missile": "Force Missile (Sp): As a standard action you can unleash a force missile that automatically strikes a foe, as magic missile. The force missile deals 1d4 points of damage plus the damage from your intense spells evocation power. This is a force effect. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
 		"Elemental Wall": "Elemental Wall (Sp): At 8th level, you can create a wall of energy that lasts for a number of rounds per day equal to your wizard level. These rounds do not need to be consecutive. This wall deals acid, cold, electricity, or fire damage, determined when you create it. The elemental wall otherwise functions like wall of fire.",
 		"Arcane Bond": "A bonded object can be used once per day to cast any one spell that the wizard has in his spellbook and is capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by the wizard, including casting time, duration, and other effects dependent on the wizard's level. This spell cannot be modified by metamagic feats or other abilities. The bonded object cannot be used to cast spells from the wizard's opposition schools (see arcane school).\n\nUSED: Y",
-		"Trinkets": "Several rooms with tiny bells trinkets."
+		"Trinkets": "Several rooms with tiny bells trinkets.",
+		"Workshop": "Planar charts, notes and books"
 	},
-	"Experience Points": "16800",
+	"Experience Points": "19,600",
 	"Languages": [
 		"Common",
 		"Draconic",
@@ -286,39 +288,39 @@
 			"spells": [
 				"Detect Magic",
 				"Read Magic",
-				"Light",
-				"Acid Splash"
+				"Dancing Lights",
+				"Ray of Frost"
 			]
 		},
 		"1st Level": {
 			"number_of_spells": 5,
 			"spells": [
-				"Shield",
 				"Used",
 				"Used",
-				"Magic Missile",
+				"Used",
+				"Used",
 				"Magic Missile"
 			]
 		},
 		"2nd Level": {
 			"number_of_spells": 5,
 			"spells": [
-				"Used",
+				"Scorching Ray",
 				"Mirror Image",
 				"Web",
 				"Used",
-				"Used"
+				"Invisibility"
 			]
 		},
 		"3rd Level": {
 			"number_of_spells": 4,
 			"spells": [
 				"Lightning Bolt",
-				"Tiny Hut",
-				"Dispel Magic",
+				"Used",
+				"Fly",
 				"Used"
 			]
 		}
 	},
-	"currentHP": "55"
+	"currentHP": "46"
 }

@@ -19,7 +19,7 @@
 	},
 	"HP": 54,
 	"AC": 21,
-	"Money": "516.18",
+	"Money": "604.18",
 	"Initiative": "+8",
 	"Speed": "40 ft",
 	"Attacks": {
@@ -80,7 +80,7 @@
 		"Gemstones": "3 gems worth 50gp each",
 		"Ring of Protection +1": "+1 to AC and +1 to all saves",
 		"Necklace of Fireballs": "(type II) 3 beads remaining",
-		"Potion of Heroism": "The drinker gains a +2 morale bonus on attack rolls, saves, and skill checks for 30 minutes"
+		"Potion of Bear's Endurance": "The drinker gains a +2 morale bonus on attack rolls, saves, and skill checks for 30 minutes"
 	},
 	"Notes": {
 		"extra attack": "Cost: 1 Ki Point Effect: Mei Lin can make one additional attack at her highest attack bonus when using Flurry of Blows.",

@@ -19,7 +19,7 @@
 		"Reflex": 10,
 		"Willpower": 5
 	},
-	"Money": "486.29",
+	"Money": "572.29",
 	"Initiative": "+4",
 	"Speed": "30 ft",
 	"Attacks": {
@@ -28,14 +28,14 @@
 			"Damage": "1d8",
 			"Special": "Range 100 ft."
 		},
-		"Silver Sword of the Ancients +2" : {
+		"Silver Sword of the Ancients +2": {
 			"Attack Bonus": "+10/+5",
-			"Damage" : "1d8 + 4",
+			"Damage": "1d8 + 4",
 			"Special": "Silver - "
 		},
-		"Shortsword": {
-			"Attack Bonus": "+8/+3",
-			"Damage": "1d6 + 2",
+		"Javelin + 1": {
+			"Attack Bonus": "+10/+5",
+			"Damage": "1d6 + 3",
 			"Special": ""
 		}
 	},
@@ -69,8 +69,6 @@
 	],
 	"Equipment": {
 		"Longbow": "Attack Bonus +10, Damage 1d8, Range 100 ft.",
-		"Quiver of Arrows (20)": "20 arrows for use with the longbow",
-		"Shortsword": "Attack Bonus +4, Damage 1d6",
 		"Studded Leather Armor": "Provides an AC bonus of +3",
 		"Backpack": "Contains essential adventuring gear",
 		"Bedroll": "Sleeping equipment",
@@ -86,14 +84,22 @@
 		"Potion of Invisibility": "Grants invisibility for 3 minutes",
 		"Scroll of Cure Light Wounds": "Casts Cure Light Wounds",
 		"Scroll of Protection from Evil": "Casts Protection from Evil",
-		"Silver Blade of the Ancients": "+2 Damage. Magic Item. Silver Item.\nActive: Detect Hidden/Invisible Objects and creatures (30 ft range) (1 day CD)"
+		"Silver Blade of the Ancients": "+2 Damage. Magic Item. Silver Item.\nActive: Detect Hidden/Invisible Objects and creatures (30 ft range) (1 day CD)",
+		"Cold-Iron Arrows": "15 count",
+		"Silver Arrows": "15 count",
+		"Scroll: Align Weapon": "",
+		"Composite Longbow": "+2 Strengths",
+		"Efficient Quiver": "Can hold 60 arrows, 18 Javelins, 6 Staves",
+		"Arrows of Magic": "30 Count,+1",
+		"Magic Javelin": "4 count, +1"
 	},
 	"Notes": {
 		"Low-Light Vision": "Half-elves can see twice as far as humans in conditions of dim light.",
 		"Elven Immunities": "Immune to magic sleep effects and a +2 racial saving throw bonus against enchantment spells and effects.",
-		"Multitalented": "Choose two favored classes at first level and gain +1 hit point or +1 skill rank whenever you take a level in either of those classes."
+		"Multitalented": "Choose two favored classes at first level and gain +1 hit point or +1 skill rank whenever you take a level in either of those classes.",
+		"Favored Enemies": "Favored Enemies: Monsterious Humanoids (+2), Undead (+4)."
 	},
-	"Experience Points": "16800",
+	"Experience Points": "19,600",
 	"Languages": [
 		"Common",
 		"Elven"
@@ -203,5 +209,5 @@
 			]
 		}
 	},
-	"currentHP": "47"
+	"currentHP": "64"
 }
